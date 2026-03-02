@@ -8,9 +8,9 @@
     "home_paragraph_text": "Looking for a starting point or more instructions? Head over to Templates or the Learning center.",
     "home_image_path": "/next.svg",
     "home_image_alt": "Next.js logo",
-    "home_button_text": "Deploy Now",
-    "home_button_image_path": "/vercel.svg",
-    "home_button_image_alt": "Vercel logomark",
-    "home_documentation_text": "Documentation"
+    "home_deploy_button_text": "Deploy Now",
+    "home_documentation_button_text": "Documentation",
+    "home_vercel_image_path": "/vercel.svg",
+    "home_vercel_image_alt": "Vercel logomark"
   }
 }
