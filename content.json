@@ -9,8 +9,8 @@
     "home_image_path": "/next.svg",
     "home_image_alt": "Next.js logo",
     "home_button_text": "Deploy Now",
-    "home_button_two_text": "Documentation",
-    "home_image_path_two": "/vercel.svg",
-    "home_image_alt_two": "Vercel logomark"
+    "home_button_image_path": "/vercel.svg",
+    "home_button_image_alt": "Vercel logomark",
+    "home_documentation_text": "Documentation"
   }
 }
