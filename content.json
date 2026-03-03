@@ -6,7 +6,7 @@
   "home": {
     "home_image_src": "/next.svg",
     "home_image_alt": "Next.js logo",
-    "home_heading": "To get started, edit the page.js file.",
+    "home_heading": "started",
     "home_paragraph": "not looking for anything",
     "home_button_text": "Deploy Now",
     "home_button_image_src": "/vercel.svg",
