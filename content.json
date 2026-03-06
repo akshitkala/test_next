@@ -13,10 +13,10 @@
     "features_developer_api_title": "Developer API",
     "features_developer_api_description": "Extensive, well-documented GraphQL and REST APIs to integrate Nexus into your existing workflow."
   },
-  "page": {
-    "features_lightning_fast_title": "Lightning Fast",
-    "features_lightning_fast_desc": "Built on top of the latest technologies for unmatched performance.",
-    "features_secure_by_default_title": "Secure by Default",
-    "features_secure_by_default_desc": "Enterprise-grade security features right out of the box."
+  "home": {
+    "home_lightning_fast_title": "Lightning Fast",
+    "home_lightning_fast_description": "Built on top of the latest technologies for unmatched performance.",
+    "home_secure_by_default_title": "Secure by Default",
+    "home_secure_by_default_description": "Enterprise-grade security features right out of the box."
   }
 }
