@@ -1,28 +1,14 @@
 import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden selection:bg-accent/30 selection:text-white">
+      <Navbar />
+      
       {/* Background Mesh */}
       <div className="hero-mesh" />
-
-      {/* Navbar */}
-      <nav className="fixed top-0 z-50 w-full border-b border-white/5 glass-morphism">
-        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
-          <div className="flex items-center gap-2">
-            <div className="h-8 w-8 rounded-lg bg-gradient-primary" />
-            <span className="text-xl font-bold tracking-tighter">NEXUS</span>
-          </div>
-          <div className="hidden items-center gap-8 text-sm font-medium text-muted-foreground transition-colors md:flex">
-            <a href="#" className="hover:text-foreground">Features</a>
-            <a href="#" className="hover:text-foreground">Solution</a>
-            <a href="#" className="hover:text-foreground">Company</a>
-          </div>
-          <button className="rounded-full bg-foreground px-5 py-2 text-sm font-semibold text-background transition-transform hover:scale-105 active:scale-95">
-            Get Started
-          </button>
-        </div>
-      </nav>
 
       {/* Hero Section */}
       <main className="relative pt-32 pb-20 md:pt-48 md:pb-32">
@@ -56,7 +42,7 @@ export default function Home() {
             </div>
 
             {/* Feature Grid */}
-            <div className="mt-32 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-32 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 text-left">
               {[
                 {
                   title: "Lightning Fast",
@@ -99,25 +85,7 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-white/5 bg-black py-12">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-            <div className="flex items-center gap-2">
-              <div className="h-6 w-6 rounded bg-gradient-primary" />
-              <span className="text-lg font-bold tracking-tighter">NEXUS</span>
-            </div>
-            <p className="text-sm text-muted-foreground">
-              © 2026 Nexus Technologies Inc. All rights reserved.
-            </p>
-            <div className="flex gap-6 text-muted-foreground">
-              <a href="#" className="hover:text-foreground">Twitter</a>
-              <a href="#" className="hover:text-foreground">GitHub</a>
-              <a href="#" className="hover:text-foreground">Discord</a>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
