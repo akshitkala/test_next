@@ -1,22 +1,9 @@
 {
-  "features": {
-    "features_real_time_analytics_title": "Real-time Analytics",
-    "features_real_time_analytics_description": "Monitor your platform's performance with granular, real-time data visualization and insights.",
-    "features_edge_computing_title": "Edge Computing",
-    "features_edge_computing_description": "Deploy your logic closer to your users for ultra-low latency and superior performance.",
-    "features_global_cdn_title": "Global CDN",
-    "features_global_cdn_description": "Leverage our lightning-fast content delivery network to serve assets from over 300 locations worldwide.",
-    "features_automated_scaling_title": "Automated Scaling",
-    "features_automated_scaling_description": "Our infrastructure dynamically adapts to your traffic patterns, ensuring 100% uptime during spikes.",
-    "features_advanced_security_title": "Advanced Security",
-    "features_advanced_security_description": "DDoS protection, automated SSL, and advanced threat detection built into every request.",
-    "features_developer_api_title": "Developer API",
-    "features_developer_api_description": "Extensive, well-documented GraphQL and REST APIs to integrate Nexus into your existing workflow."
-  },
-  "page": {
-    "features_lightning_fast_title": "Lightning Fast",
-    "features_lightning_fast_desc": "Built on top of the latest technologies for unmatched performance.",
-    "features_secure_by_default_title": "Secure by Default",
-    "features_secure_by_default_desc": "Enterprise-grade security features right out of the box."
+  "home": {
+    "home_hero_heading_part1": "Elevate your ",
+    "home_feature_lightning_fast_title": "Lightning Fast",
+    "home_feature_lightning_fast_description": "Built on top of the latest technologies for unmatched performance.",
+    "home_feature_secure_by_default_title": "Secure by Default",
+    "home_feature_secure_by_default_description": "Enterprise-grade security features right out of the box."
   }
 }
