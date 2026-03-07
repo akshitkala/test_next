@@ -1,4 +1,3 @@
-import content from "../../../content.json";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 export default function Features() {
