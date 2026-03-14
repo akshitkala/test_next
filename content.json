@@ -1,14 +1,10 @@
 {
-  "home": {
-    "home_hero_heading_part1": "Elevate your ",
-    "home_feature_lightning_fast_title": "Lightning Fast",
-    "home_feature_lightning_fast_description": "Built on top of the latest technologies for unmatched performance.",
-    "home_feature_secure_by_default_title": "Secure by Default",
-    "home_feature_secure_by_default_description": "Enterprise-grade security features right out of the box."
+  "company": {
+    "company_mission_heading_part1": "Defining the "
   },
   "navbar": {
-    "navbar_link_features": "Features",
-    "navbar_link_solution": "Solution",
-    "navbar_link_company": "Company"
+    "navbar_nav_link_features": "Features",
+    "navbar_nav_link_solution": "Solution",
+    "navbar_nav_link_company": "Company"
   }
 }
