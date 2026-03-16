@@ -1,4 +1,3 @@
-import content from "../../../content.json";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 export default function Features() {
@@ -46,7 +45,7 @@ export default function Features() {
       <main className="relative pt-32 pb-20 md:pt-48 md:pb-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-16 text-center">
-            <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-accent">{content.navbar.navbar_features_link_text}</h2>
+            <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-accent">Features</h2>
             <h1 className="mb-6 text-4xl font-extrabold tracking-tight md:text-6xl text-gradient">
               Everything you need <br /> to build the future.
             </h1>
