@@ -1,3 +1,4 @@
+import content from "../../content.json";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -13,20 +14,21 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 inline-flex animate-float items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm font-medium text-accent">
-              <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">New</span>Nexus V2.0 is now live</div>
+              <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">{content.home.hero_badge_new_label}</span>{content.home.hero_badge_text}</div>
             
-            <h1 className="mb-8 max-w-4xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl">Elevate your<br />
-              <span className="text-gradient">digital presence.</span>
+            <h1 className="mb-8 max-w-4xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl">
+              Elevate your <br />
+              <span className="text-gradient">{content.home.hero_heading_part2}</span>
             </h1>
             
-            <p className="mb-12 max-w-2xl text-lg text-muted-foreground md:text-xl">Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.</p>
+            <p className="mb-12 max-w-2xl text-lg text-muted-foreground md:text-xl">{content.home.hero_description}</p>
 
             <div className="flex flex-col gap-4 sm:flex-row">
-              <button className="group relative flex h-14 items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-primary px-8 font-semibold text-white transition-all hover:shadow-[0_0_40px_rgba(139,92,246,0.3)]">Start Building Now<svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <button className="group relative flex h-14 items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-primary px-8 font-semibold text-white transition-all hover:shadow-[0_0_40px_rgba(139,92,246,0.3)]">{content.home.hero_button_start_building}<svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </button>
-              <button className="flex h-14 items-center justify-center rounded-full border border-white/10 bg-white/5 px-8 font-semibold transition-colors hover:bg-white/10">View Documentation</button>
+              <button className="flex h-14 items-center justify-center rounded-full border border-white/10 bg-white/5 px-8 font-semibold transition-colors hover:bg-white/10">{content.home.hero_button_view_documentation}</button>
             </div>
 
             {/* Feature Grid */}
