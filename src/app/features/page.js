@@ -1,4 +1,3 @@
-import content from "../../../content.json";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 export default function Features() {
@@ -46,11 +45,11 @@ export default function Features() {
       <main className="relative pt-32 pb-20 md:pt-48 md:pb-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-16 text-center">
-            <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-accent">{content.features.features_section_heading_small}</h2>
+            <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-accent">Features</h2>
             <h1 className="mb-6 text-4xl font-extrabold tracking-tight md:text-6xl text-gradient">
               Everything you need <br /> to build the future.
             </h1>
-            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">{content.features.features_section_description}</p>
+            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">Powerful tools and infrastructure designed for modern engineering teams. Built for speed, reliability, and infinite scale.</p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -62,7 +61,7 @@ export default function Features() {
                 <p className="leading-relaxed text-muted-foreground">
                   {feature.description}
                 </p>
-                <div className="mt-6 flex items-center text-sm font-semibold text-accent opacity-0 transition-opacity group-hover:opacity-100">{content.features.feature_learn_more_button}<svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="mt-6 flex items-center text-sm font-semibold text-accent opacity-0 transition-opacity group-hover:opacity-100">Learn more<svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
                 </div>
@@ -71,9 +70,9 @@ export default function Features() {
 
           {/* CTA Section */}
           <div className="mt-32 rounded-[2.5rem] bg-gradient-to-b from-white/[0.05] to-transparent p-12 text-center border border-white/5">
-            <h2 className="mb-6 text-3xl font-bold md:text-4xl">{content.features.cta_heading}</h2>
-            <p className="mb-10 text-muted-foreground">{content.features.cta_description}</p>
-            <button className="rounded-full bg-foreground px-8 py-4 font-bold text-background transition-transform hover:scale-105 active:scale-95">{content.features.cta_button_text}</button>
+            <h2 className="mb-6 text-3xl font-bold md:text-4xl">Ready to experience Nexus?</h2>
+            <p className="mb-10 text-muted-foreground">Join thousands of developers building the next generation of web applications.</p>
+            <button className="rounded-full bg-foreground px-8 py-4 font-bold text-background transition-transform hover:scale-105 active:scale-95">Start Free Trial</button>
           </div>
         </div>
       </main>
