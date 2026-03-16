@@ -1,0 +1,72 @@
+{
+  "company": {
+    "company_our_mission_heading": "Our Mission",
+    "company_main_heading_part_1": "Defining the ",
+    "company_main_heading_part_2": "next frontier.",
+    "company_introduction_paragraph_1": "Founded in 2024, Nexus was born from a simple observation: the tools we use to build the web haven't kept pace with the complexity of what we're building.",
+    "company_introduction_paragraph_2": "Our mission is to bridge this gap by providing an integrated ecosystem that handles the infrastructure, security, and scaling, so you can focus on what matters: delivering incredible experiences to your users.",
+    "company_requests_per_second_value": "50M+",
+    "company_requests_per_second_label": "Requests/sec",
+    "company_uptime_sla_value": "99.99%",
+    "company_uptime_sla_label": "Uptime SLA",
+    "company_countries_value": "120+",
+    "company_countries_label": "Countries",
+    "company_culture_card_title": "Our Culture",
+    "company_sustainable_tech_card_title": "Sustainable Tech",
+    "company_core_values_heading": "Guided by our values",
+    "company_value_1_title": "Radical Transparency",
+    "company_value_1_description": "We believe in being open about our processes, successes, and even our failures.",
+    "company_value_2_title": "Customer Obsession",
+    "company_value_2_description": "Every choice we make starts with how it will improve our users' workflows.",
+    "company_value_3_title": "Relentless Innovation",
+    "company_value_3_description": "We never settle for \"good enough.\" We are constantly pushing the boundaries."
+  },
+  "features": {
+    "feature_real_time_analytics_title": "Real-time Analytics",
+    "feature_real_time_analytics_description": "Monitor your platform's performance with granular, real-time data visualization and insights.",
+    "feature_edge_computing_title": "Edge Computing",
+    "feature_edge_computing_description": "Deploy your logic closer to your users for ultra-low latency and superior performance.",
+    "feature_global_cdn_title": "Global CDN",
+    "feature_global_cdn_description": "Leverage our lightning-fast content delivery network to serve assets from over 300 locations worldwide.",
+    "feature_automated_scaling_title": "Automated Scaling",
+    "feature_automated_scaling_description": "Our infrastructure dynamically adapts to your traffic patterns, ensuring 100% uptime during spikes.",
+    "feature_advanced_security_title": "Advanced Security",
+    "feature_advanced_security_description": "DDoS protection, automated SSL, and advanced threat detection built into every request.",
+    "feature_developer_api_title": "Developer API",
+    "feature_developer_api_description": "Extensive, well-documented GraphQL and REST APIs to integrate Nexus into your existing workflow.",
+    "features_section_heading_small": "Features",
+    "features_section_heading_large": "Everything you need to build the future.",
+    "features_section_description": "Powerful tools and infrastructure designed for modern engineering teams. Built for speed, reliability, and infinite scale.",
+    "feature_learn_more_button": "Learn more",
+    "cta_heading": "Ready to experience Nexus?",
+    "cta_description": "Join thousands of developers building the next generation of web applications.",
+    "cta_button_text": "Start Free Trial"
+  },
+  "home": {
+    "hero_badge_new_label": "New",
+    "hero_badge_text": "Nexus V2.0 is now live",
+    "hero_heading_part1": "Elevate your ",
+    "hero_heading_part2": "digital presence.",
+    "hero_description": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
+    "hero_button_start_building": "Start Building Now",
+    "hero_button_view_documentation": "View Documentation",
+    "feature_lightning_fast_title": "Lightning Fast",
+    "feature_lightning_fast_description": "Built on top of the latest technologies for unmatched performance.",
+    "feature_secure_by_default_title": "Secure by Default",
+    "feature_secure_by_default_description": "Enterprise-grade security features right out of the box.",
+    "feature_cloud_scale_title": "Cloud Scale",
+    "feature_cloud_scale_description": "Automatically scale your applications as your user base grows."
+  },
+  "navbar": {
+    "navbar_solution_link_text": "Solution",
+    "navbar_company_link_text": "Company",
+    "navbar_brand_name": "NEXUS",
+    "navbar_get_started_button_text": "Get Started"
+  },
+  "footer": {
+    "footer_copyright_text": "© 2026 Nexus Technologies Inc. All rights reserved.",
+    "footer_twitter_link_text": "Twitter",
+    "footer_github_link_text": "GitHub",
+    "footer_discord_link_text": "Discord"
+  }
+}
