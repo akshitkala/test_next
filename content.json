@@ -1,0 +1,50 @@
+{
+  "features": {
+    "feature_real_time_analytics_title": "Real-time Analytics",
+    "feature_real_time_analytics_description": "Monitor your platform's performance with granular, real-time data visualization and insights.",
+    "feature_edge_computing_title": "Edge Computing",
+    "feature_edge_computing_description": "Deploy your logic closer to your users for ultra-low latency and superior performance.",
+    "feature_global_cdn_title": "Global CDN",
+    "feature_global_cdn_description": "Leverage our lightning-fast content delivery network to serve assets from over 300 locations worldwide.",
+    "feature_automated_scaling_title": "Automated Scaling",
+    "feature_automated_scaling_description": "Our infrastructure dynamically adapts to your traffic patterns, ensuring 100% uptime during spikes.",
+    "feature_advanced_security_title": "Advanced Security",
+    "feature_advanced_security_description": "DDoS protection, automated SSL, and advanced threat detection built into every request.",
+    "feature_developer_api_title": "Developer API",
+    "feature_developer_api_description": "Extensive, well-documented GraphQL and REST APIs to integrate Nexus into your existing workflow.",
+    "features_section_small_heading": "Features",
+    "features_section_large_heading": "Everything you need to build the future.",
+    "features_section_description": "Powerful tools and infrastructure designed for modern engineering teams. Built for speed, reliability, and infinite scale.",
+    "feature_card_learn_more_button": "Learn more",
+    "cta_section_heading": "Ready to experience Nexus?",
+    "cta_section_description": "Join thousands of developers building the next generation of web applications.",
+    "cta_section_button_text": "Start Free Trial"
+  },
+  "home": {
+    "home_badge_new_text": "New",
+    "home_badge_announcement_text": "Nexus V2.0 is now live",
+    "home_hero_heading_part_1": "Elevate your",
+    "home_hero_heading_part_2": "digital presence.",
+    "home_hero_description": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
+    "home_start_building_button_text": "Start Building Now",
+    "home_view_documentation_button_text": "View Documentation",
+    "home_feature_1_title": "Lightning Fast",
+    "home_feature_1_description": "Built on top of the latest technologies for unmatched performance.",
+    "home_feature_2_title": "Secure by Default",
+    "home_feature_2_description": "Enterprise-grade security features right out of the box.",
+    "home_feature_3_title": "Cloud Scale",
+    "home_feature_3_description": "Automatically scale your applications as your user base grows."
+  },
+  "navbar": {
+    "navbar_solution_link_text": "Solution",
+    "navbar_company_link_text": "Company",
+    "navbar_brand_name": "NEXUS",
+    "navbar_get_started_button_text": "Get Started"
+  },
+  "footer": {
+    "footer_copyright_text": "© 2026 Nexus Technologies Inc. All rights reserved.",
+    "footer_twitter_link_text": "Twitter",
+    "footer_github_link_text": "GitHub",
+    "footer_discord_link_text": "Discord"
+  }
+}
