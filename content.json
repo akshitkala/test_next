@@ -1,0 +1,37 @@
+{
+  "company": {
+    "company_our_mission_heading": "Our Mission",
+    "company_main_heading_part_1": "Defining the ",
+    "company_main_heading_part_2": "next frontier.",
+    "company_introduction_paragraph_1": "Founded in 2024, Nexus was born from a simple observation: the tools we use to build the web haven't kept pace with the complexity of what we're building.",
+    "company_introduction_paragraph_2": "Our mission is to bridge this gap by providing an integrated ecosystem that handles the infrastructure, security, and scaling, so you can focus on what matters: delivering incredible experiences to your users.",
+    "company_requests_per_second_value": "50M+",
+    "company_requests_per_second_label": "Requests/sec",
+    "company_uptime_sla_value": "99.99%",
+    "company_uptime_sla_label": "Uptime SLA",
+    "company_countries_value": "120+",
+    "company_countries_label": "Countries",
+    "company_culture_card_title": "Our Culture",
+    "company_sustainable_tech_card_title": "Sustainable Tech",
+    "company_core_values_heading": "Guided by our values",
+    "company_value_1_title": "Radical Transparency",
+    "company_value_1_description": "We believe in being open about our processes, successes, and even our failures.",
+    "company_value_2_title": "Customer Obsession",
+    "company_value_2_description": "Every choice we make starts with how it will improve our users' workflows.",
+    "company_value_3_title": "Relentless Innovation",
+    "company_value_3_description": "We never settle for \"good enough.\" We are constantly pushing the boundaries."
+  },
+  "navbar": {
+    "navbar_features_link_text": "Features",
+    "navbar_solution_link_text": "Solution",
+    "navbar_company_link_text": "Company",
+    "navbar_brand_name": "NEXUS",
+    "navbar_get_started_button_text": "Get Started"
+  },
+  "footer": {
+    "footer_copyright_text": "© 2026 Nexus Technologies Inc. All rights reserved.",
+    "footer_twitter_link_text": "Twitter",
+    "footer_github_link_text": "GitHub",
+    "footer_discord_link_text": "Discord"
+  }
+}
