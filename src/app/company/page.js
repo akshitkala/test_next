@@ -1,9 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
 export default function Company() {
-  return (
-    <div className="relative min-h-screen overflow-hidden selection:bg-accent/30 selection:text-white">
+  return <div className="relative min-h-screen overflow-hidden selection:bg-accent/30 selection:text-white">
       <Navbar />
       <div className="hero-mesh" />
       
@@ -16,15 +14,8 @@ export default function Company() {
                 Defining the <br />
                 <span className="text-gradient">next frontier.</span>
               </h1>
-              <p className="mb-8 text-xl leading-relaxed text-muted-foreground">
-                Founded in 2024, Nexus was born from a simple observation: the tools we use to build 
-                the web haven't kept pace with the complexity of what we're building.
-              </p>
-              <p className="mb-10 text-lg leading-relaxed text-muted-foreground">
-                Our mission is to bridge this gap by providing an integrated ecosystem that handles 
-                the infrastructure, security, and scaling, so you can focus on what matters: 
-                delivering incredible experiences to your users.
-              </p>
+              <p className="mb-8 text-xl leading-relaxed text-muted-foreground">Founded in 2024, Nexus was born from a simple observation: the tools we use to build the web haven't kept pace with the complexity of what we're building.</p>
+              <p className="mb-10 text-lg leading-relaxed text-muted-foreground">Our mission is to bridge this gap by providing an integrated ecosystem that handles the infrastructure, security, and scaling, so you can focus on what matters: delivering incredible experiences to your users.</p>
               
               <div className="flex flex-wrap gap-8">
                 <div>
@@ -60,31 +51,24 @@ export default function Company() {
           <div className="mt-48">
             <h2 className="mb-16 text-3xl font-bold text-center">Guided by our values</h2>
             <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
-              {[
-                {
-                  title: "Radical Transparency",
-                  desc: "We believe in being open about our processes, successes, and even our failures."
-                },
-                {
-                  title: "Customer Obsession",
-                  desc: "Every choice we make starts with how it will improve our users' workflows."
-                },
-                {
-                  title: "Relentless Innovation",
-                  desc: "We never settle for \"good enough.\" We are constantly pushing the boundaries."
-                }
-              ].map((value, i) => (
-                <div key={i} className="border-l border-white/10 pl-8">
+              {[{
+              title: "Radical Transparency",
+              desc: "We believe in being open about our processes, successes, and even our failures."
+            }, {
+              title: "Customer Obsession",
+              desc: "Every choice we make starts with how it will improve our users' workflows."
+            }, {
+              title: "Relentless Innovation",
+              desc: "We never settle for \"good enough.\" We are constantly pushing the boundaries."
+            }].map((value, i) => <div key={i} className="border-l border-white/10 pl-8">
                   <h3 className="mb-4 text-xl font-bold">{value.title}</h3>
                   <p className="text-muted-foreground leading-relaxed">{value.desc}</p>
-                </div>
-              ))}
+                </div>)}
             </div>
           </div>
         </div>
       </main>
 
       <Footer />
-    </div>
-  );
+    </div>;
 }
