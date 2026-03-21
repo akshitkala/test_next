@@ -14,8 +14,10 @@ export default function Company() {
               <h1 className="mb-8 text-5xl font-extrabold tracking-tight md:text-7xl">{content.company.company_defining_the_heading}<br />
                 <span className="text-gradient">{content.company.company_next_frontier_heading}</span>
               </h1>
-              <p className="mb-8 text-xl leading-relaxed text-muted-foreground">{content.company.company_intro_paragraph_1}</p>
-              <p className="mb-10 text-lg leading-relaxed text-muted-foreground">{content.company.company_intro_paragraph_2}</p>
+
+              <p className="mb-8 text-xl leading-relaxed text-muted-foreground">Founded in 2024, Nexus was born from a simple observation: the tools we use to build the web haven't kept pace with the complexity of what we're building.</p>
+              <p className="mb-10 text-lg leading-relaxed text-muted-foreground">Our mission is to bridge this gap by providing an integrated ecosystem that handles the infrastructure, security, and scaling, so you can focus on what matters: delivering incredible experiences to your users.</p>
+
               
               <div className="flex flex-wrap gap-8">
                 <div>
