@@ -1,0 +1,30 @@
+{
+  "home": {
+    "hero_badge_new_label": "New",
+    "hero_badge_text": "Nexus V2.0 is now live",
+    "hero_heading_part1": "Elevate your  zxdfghjksdfghujiodfghjklxcvbnm",
+    "hero_heading_part2": "digital presence.",
+    "hero_description": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
+    "hero_button_start_building": "Start Building Now",
+    "hero_button_view_documentation": "View Documentation",
+    "feature_lightning_fast_title": "Lightning Fast",
+    "feature_lightning_fast_description": "Built on top of the latest technologies for unmatched performance.",
+    "feature_secure_by_default_title": "Secure by Default",
+    "feature_secure_by_default_description": "Enterprise-grade security features right out of the box.",
+    "feature_cloud_scale_title": "Cloud Scale",
+    "feature_cloud_scale_description": "Automatically scale your applications as your user base grows."
+  },
+  "navbar": {
+    "navbar_features_link_text": "Features",
+    "navbar_solution_link_text": "Solution",
+    "navbar_company_link_text": "Company",
+    "navbar_brand_name": "NEXUS",
+    "navbar_get_started_button_text": "Get Started"
+  },
+  "footer": {
+    "footer_copyright_text": "© 2026 Nexus Technologies Inc. All rights reserved.",
+    "footer_twitter_link_text": "Twitter",
+    "footer_github_link_text": "GitHub",
+    "footer_discord_link_text": "Discord"
+  }
+}
