@@ -1,18 +1,18 @@
 {
   "home": {
-    "hero_badge_new_label": "New",
+    "hero_badge_status": "New",
     "hero_badge_text": "Nexus V2.0 is now live",
-    "hero_heading_part1": "Elevate your  zxdfghjksdfghujiodfghjklxcvbnm",
-    "hero_heading_part2": "digital presence.",
+    "hero_heading_part_1": "Elevate your ",
+    "hero_heading_part_2": "digital presence.",
     "hero_description": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
-    "hero_button_start_building": "Start Building Now",
-    "hero_button_view_documentation": "View Documentation",
-    "feature_lightning_fast_title": "Lightning Fast",
-    "feature_lightning_fast_description": "Built on top of the latest technologies for unmatched performance.",
-    "feature_secure_by_default_title": "Secure by Default",
-    "feature_secure_by_default_description": "Enterprise-grade security features right out of the box.",
-    "feature_cloud_scale_title": "Cloud Scale",
-    "feature_cloud_scale_description": "Automatically scale your applications as your user base grows."
+    "hero_button_primary_text": "Start Building Now",
+    "hero_button_secondary_text": "View Documentation",
+    "feature_1_title": "Lightning Fast",
+    "feature_1_description": "Built on top of the latest technologies for unmatched performance.",
+    "feature_2_title": "Secure by Default",
+    "feature_2_description": "Enterprise-grade security features right out of the box.",
+    "feature_3_title": "Cloud Scale",
+    "feature_3_description": "Automatically scale your applications as your user base grows."
   },
   "navbar": {
     "navbar_features_link_text": "Features",
