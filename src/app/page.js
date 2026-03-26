@@ -15,8 +15,7 @@ export default function Home() {
             <div className="mb-8 inline-flex animate-float items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm font-medium text-accent">
               <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">New</span>Nexus V2.0 is now live</div>
             
-            <h1 className="mb-8 max-w-4xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl">
-              Elevate your <br />
+            <h1 className="mb-8 max-w-4xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl">this section is edited by panelify<br />
               <span className="text-gradient">digital presence. witht the help of panelify</span>
             </h1>
             
