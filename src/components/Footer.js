@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <Link href="/" className="flex items-center gap-2 group">
             <div className="h-6 w-6 rounded bg-gradient-primary transition-transform group-hover:scale-110" />
-            <span className="text-lg font-bold tracking-tighter">NEXUS</span>
+            <span className="text-lg font-bold tracking-tighter">NEXUS is now available</span>
           </Link>
           <p className="text-sm text-muted-foreground">© 2026 Nexus Technologies Inc. All rights reserved.</p>
           <div className="flex gap-6 text-muted-foreground">
