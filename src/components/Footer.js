@@ -10,9 +10,9 @@ export default function Footer() {
           </Link>
           <p className="text-sm text-muted-foreground">{content.footer.footer_copyright_text}</p>
           <div className="flex gap-6 text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition-colors">{content.footer.footer_social_link_twitter}</a>
-            <a href="#" className="hover:text-foreground transition-colors">{content.footer.footer_social_link_github}</a>
-            <a href="#" className="hover:text-foreground transition-colors">{content.footer.footer_social_link_discord}</a>
+            <a href="#" className="hover:text-foreground transition-colors">{content.footer.footer_twitter_link_text}</a>
+            <a href="#" className="hover:text-foreground transition-colors">{content.footer.footer_github_link_text}</a>
+            <a href="#" className="hover:text-foreground transition-colors">{content.footer.footer_discord_link_text}</a>
           </div>
         </div>
       </div>
