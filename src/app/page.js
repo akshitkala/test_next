@@ -14,11 +14,10 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 inline-flex animate-float items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm font-medium text-accent">
-              <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">{content.home.home_new_badge_text}</span>{content.home.home_nexus_v2_live_message}</div>
+              <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">{content.home.home_new_badge_text}</span>{content.home.home_nexus_version_live_text}</div>
             
-            <h1 className="mb-8 max-w-4xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl">
-              Elevate your <br />
-              <span className="text-gradient">{content.home.home_hero_heading_part2}</span>
+            <h1 className="mb-8 max-w-4xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl">{content.home.home_hero_heading_part_1}<br />
+              <span className="text-gradient">{content.home.home_hero_heading_part_2}</span>
             </h1>
             
             <p className="mb-12 max-w-2xl text-lg text-muted-foreground md:text-xl">{content.home.home_hero_description}</p>

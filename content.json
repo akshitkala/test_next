@@ -1,18 +1,18 @@
 {
   "home": {
     "home_new_badge_text": "New",
-    "home_nexus_v2_live_message": "Nexus V2.0 is now live",
-    "home_hero_heading_part1": "Elevate your ",
-    "home_hero_heading_part2": "digital presence. witht the help of panelify",
+    "home_nexus_version_live_text": "Nexus V2.0 is now live",
+    "home_hero_heading_part_1": "Elevate your",
+    "home_hero_heading_part_2": "digital presence. witht the help of panelify",
     "home_hero_description": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
     "home_start_building_button_text": "Start Building Now",
     "home_view_documentation_button_text": "View Documentation",
-    "home_feature_lightning_fast_title": "Lightning Fast",
-    "home_feature_lightning_fast_description": "Built on top of the latest technologies for unmatched performance.",
-    "home_feature_secure_by_default_title": "Secure by Default",
-    "home_feature_secure_by_default_description": "Enterprise-grade security features right out of the box.",
-    "home_feature_cloud_scale_title": "Cloud Scale",
-    "home_feature_cloud_scale_description": "Automatically scale your applications as your user base grows."
+    "home_feature_1_title": "Lightning Fast",
+    "home_feature_1_description": "Built on top of the latest technologies for unmatched performance.",
+    "home_feature_2_title": "Secure by Default",
+    "home_feature_2_description": "Enterprise-grade security features right out of the box.",
+    "home_feature_3_title": "Cloud Scale",
+    "home_feature_3_description": "Automatically scale your applications as your user base grows."
   },
   "navbar": {
     "navbar_brand_text": "NEXUS is now available",
