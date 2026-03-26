@@ -2,7 +2,7 @@
   "home": {
     "hero_badge_status": "New",
     "hero_badge_text": "Nexus V2.0 is now live",
-    "hero_heading_part_1": "Elevate your  cxzxcvbnmfdsdftyuytrewertyuiugfdsdfghjhgfdsdfgh",
+    "hero_heading_part_1": "Elevate your ",
     "hero_heading_part_2": "digital presence.",
     "hero_description": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
     "hero_button_primary_text": "Start Building Now",
@@ -15,16 +15,16 @@
     "feature_3_description": "Automatically scale your applications as your user base grows."
   },
   "navbar": {
-    "navbar_features_link_text": "Features",
-    "navbar_solution_link_text": "Solution",
-    "navbar_company_link_text": "Company",
-    "navbar_brand_name": "NEXUS is now available",
-    "navbar_get_started_button_text": "Get Started"
+    "navbar_link_features": "Features",
+    "navbar_link_solution": "Solution",
+    "navbar_link_company": "Company",
+    "navbar_brand_text": "NEXUS is now available",
+    "navbar_get_started_button": "Get Started"
   },
   "footer": {
     "footer_copyright_text": "© 2026 Nexus Technologies Inc. All rights reserved.",
-    "footer_twitter_link_text": "Twitter",
-    "footer_github_link_text": "GitHub",
-    "footer_discord_link_text": "Discord"
+    "footer_social_link_twitter": "Twitter",
+    "footer_social_link_github": "GitHub",
+    "footer_social_link_discord": "Discord"
   }
 }
