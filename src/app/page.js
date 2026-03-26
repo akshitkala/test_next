@@ -17,7 +17,7 @@ export default function Home() {
             
             <h1 className="mb-8 max-w-4xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl">
               Elevate your <br />
-              <span className="text-gradient">digital presence.</span>
+              <span className="text-gradient">digital presence. witht the help of panelify</span>
             </h1>
             
             <p className="mb-12 max-w-2xl text-lg text-muted-foreground md:text-xl">Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.</p>
