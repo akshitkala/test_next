@@ -41,6 +41,21 @@ export default function Home() {
               </button>
             </div>
 
+            {/* Hero Dashboard Image — Unsplash (external link) */}
+            <div className="relative mt-20 w-full max-w-5xl">
+              <div className="absolute inset-0 rounded-3xl bg-gradient-to-b from-transparent via-transparent to-background z-10 pointer-events-none" />
+              <div className="rounded-3xl border border-white/10 overflow-hidden shadow-[0_40px_120px_rgba(139,92,246,0.2)]">
+                <Image
+                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+                  alt="Nexus analytics dashboard with real-time data visualization"
+                  width={1200}
+                  height={675}
+                  className="w-full object-cover"
+                  priority
+                />
+              </div>
+            </div>
+
             {/* Feature Grid */}
             <div className="mt-32 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 text-left">
               {[
@@ -51,7 +66,7 @@ export default function Home() {
                     <svg className="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
-                  )
+                  ),
                 },
                 {
                   title: "Secure by Default",
@@ -60,7 +75,7 @@ export default function Home() {
                     <svg className="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002-2zm10-10V7a4 4 0 00-8 0v4h8z" />
                     </svg>
-                  )
+                  ),
                 },
                 {
                   title: "Cloud Scale",
@@ -69,8 +84,8 @@ export default function Home() {
                     <svg className="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
                     </svg>
-                  )
-                }
+                  ),
+                },
               ].map((feature, i) => (
                 <div key={i} className="group relative rounded-2xl border border-white/5 bg-white/5 p-8 transition-colors hover:bg-white/[0.08]">
                   <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10 transition-transform group-hover:scale-110">
@@ -80,6 +95,41 @@ export default function Home() {
                   <p className="text-muted-foreground">{feature.desc}</p>
                 </div>
               ))}
+            </div>
+
+            {/* Image Showcase — public folder + Unsplash link */}
+            <div className="mt-32 w-full">
+              <h2 className="mb-12 text-3xl font-bold text-center">Crafted for modern teams</h2>
+              <div className="grid gap-6 sm:grid-cols-2">
+                {/* Public folder image */}
+                <div className="group relative rounded-3xl overflow-hidden border border-white/10 aspect-video">
+                  <Image
+                    src="/CateringHome.jpg"
+                    alt="Modern team workspace powered by Nexus"
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                  <div className="absolute bottom-6 left-6 text-left">
+                    <span className="text-white font-bold text-xl">Team Workspace</span>
+                    <p className="text-white/70 text-sm mt-1">Built for collaboration</p>
+                  </div>
+                </div>
+                {/* External Unsplash image */}
+                <div className="group relative rounded-3xl overflow-hidden border border-white/10 aspect-video">
+                  <Image
+                    src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80"
+                    alt="Developers collaborating and building with the Nexus platform"
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                  <div className="absolute bottom-6 left-6 text-left">
+                    <span className="text-white font-bold text-xl">Developer First</span>
+                    <p className="text-white/70 text-sm mt-1">Loved by engineers worldwide</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

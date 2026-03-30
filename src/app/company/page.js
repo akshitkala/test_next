@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -18,7 +19,7 @@ export default function Company() {
               </h1>
               <p className="mb-8 text-xl leading-relaxed text-muted-foreground">
                 Founded in 2024, Nexus was born from a simple observation: the tools we use to build 
-                the web haven't kept pace with the complexity of what we're building.
+                the web haven&apos;t kept pace with the complexity of what we&apos;re building.
               </p>
               <p className="mb-10 text-lg leading-relaxed text-muted-foreground">
                 Our mission is to bridge this gap by providing an integrated ecosystem that handles 
@@ -42,22 +43,48 @@ export default function Company() {
               </div>
             </div>
 
+            {/* Image grid — one from public folder, one from Unsplash */}
             <div className="grid gap-6 sm:grid-cols-2">
-              <div className="rounded-3xl bg-white/5 border border-white/10 p-2 aspect-square group overflow-hidden">
-                <div className="w-full h-full rounded-[1.25rem] bg-gradient-to-br from-accent/20 to-purple-500/10 flex items-center justify-center transition-transform group-hover:scale-[1.02]">
-                  <span className="text-accent font-bold">Our Culture</span>
-                </div>
+              {/* Public folder image */}
+              <div className="rounded-3xl border border-white/10 overflow-hidden aspect-square group">
+                <Image
+                  src="/catering.webp"
+                  alt="Nexus team culture — collaborative and innovative workplace"
+                  width={500}
+                  height={500}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                />
               </div>
-              <div className="rounded-3xl bg-white/5 border border-white/10 p-2 aspect-square group overflow-hidden mt-12 sm:mt-24">
-                <div className="w-full h-full rounded-[1.25rem] bg-gradient-to-br from-pink-500/20 to-accent/10 flex items-center justify-center transition-transform group-hover:scale-[1.02]">
-                  <span className="text-pink-500 font-bold">Sustainable Tech</span>
-                </div>
+              {/* Unsplash external image */}
+              <div className="rounded-3xl border border-white/10 overflow-hidden aspect-square group mt-12 sm:mt-24">
+                <Image
+                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80"
+                  alt="Sustainable tech team working together on green digital solutions"
+                  width={500}
+                  height={500}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                />
               </div>
             </div>
           </div>
 
+          {/* Team Photo Banner — Unsplash external link */}
+          <div className="mt-32 relative rounded-[2.5rem] overflow-hidden border border-white/10 h-80">
+            <Image
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1400&q=80"
+              alt="The Nexus team gathered together in a modern office environment"
+              fill
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
+            <div className="absolute inset-0 flex flex-col justify-center px-12">
+              <span className="text-accent text-sm font-bold uppercase tracking-widest mb-3">Our People</span>
+              <h2 className="text-4xl font-extrabold text-white max-w-md">A team of builders & dreamers</h2>
+            </div>
+          </div>
+
           {/* Core Values */}
-          <div className="mt-48">
+          <div className="mt-32">
             <h2 className="mb-16 text-3xl font-bold text-center">Guided by our values</h2>
             <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
               {[
