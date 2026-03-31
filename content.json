@@ -1,30 +1,35 @@
 {
-  "home": {
-    "new_badge_text": "New",
-    "nexus_v2_live_message": "Nexus V2.0 is now live",
-    "hero_heading_part_1": "Elevate your ",
-    "hero_heading_part_2": "digital presence.",
-    "hero_description": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
-    "start_building_now_button_text": "Start Building Now",
-    "view_documentation_button_text": "View Documentation",
-    "feature_lightning_fast_title": "Lightning Fast",
-    "feature_lightning_fast_description": "Built on top of the latest technologies for unmatched performance.",
-    "feature_secure_by_default_title": "Secure by Default",
-    "feature_secure_by_default_description": "Enterprise-grade security features right out of the box.",
-    "feature_cloud_scale_title": "Cloud Scale",
-    "feature_cloud_scale_description": "Automatically scale your applications as your user base grows.",
-    "crafted_for_modern_teams_heading": "Crafted for modern teams",
-    "team_workspace_title": "Team Workspace",
-    "team_workspace_description": "Built for collaboration",
-    "developer_first_title": "Developer First",
-    "developer_first_description": "Loved by engineers worldwide"
+  "features": {
+    "features_heading": "Features",
+    "main_heading": "Everything you need to build the future.",
+    "main_description": "Powerful tools and infrastructure designed for modern engineering teams. Built for speed, reliability, and infinite scale.",
+    "infrastructure_badge": "Infrastructure",
+    "infrastructure_heading": "Powered by the world's most reliable infrastructure",
+    "feature_realtime_analytics_title": "Real-time Analytics",
+    "feature_realtime_analytics_description": "Monitor your platform's performance with granular, real-time data visualization and insights.",
+    "feature_edge_computing_title": "Edge Computing",
+    "feature_edge_computing_description": "Deploy your logic closer to your users for ultra-low latency and superior performance.",
+    "feature_global_cdn_title": "Global CDN",
+    "feature_global_cdn_description": "Leverage our lightning-fast content delivery network to serve assets from over 300 locations worldwide.",
+    "feature_automated_scaling_title": "Automated Scaling",
+    "feature_automated_scaling_description": "Our infrastructure dynamically adapts to your traffic patterns, ensuring 100% uptime during spikes.",
+    "feature_advanced_security_title": "Advanced Security",
+    "feature_advanced_security_description": "DDoS protection, automated SSL, and advanced threat detection built into every request.",
+    "feature_developer_api_title": "Developer API",
+    "feature_developer_api_description": "Extensive, well-documented GraphQL and REST APIs to integrate Nexus into your existing workflow.",
+    "feature_learn_more_button": "Learn more",
+    "see_it_in_action_heading": "See it in action",
+    "platform_overview_label": "Platform Overview",
+    "real_time_data_label": "Real-time Data",
+    "cta_heading": "Ready to experience Nexus?",
+    "cta_description": "Join thousands of developers building the next generation of web applications.",
+    "cta_button_text": "Start Free Trial"
   },
   "navbar": {
-    "navbar_logo_text": "NEXUS",
-    "navbar_nav_link_features": "Features",
+    "navbar_brand_name": "NEXUS",
     "navbar_nav_link_solution": "Solution",
     "navbar_nav_link_company": "Company",
-    "navbar_get_started_button_text": "Get Started"
+    "navbar_get_started_button": "Get Started"
   },
   "footer": {
     "footer_copyright_text": "© 2026 Nexus Technologies Inc. All rights reserved.",
@@ -34,17 +39,41 @@
   },
   "page": {
     "images": {
-      "team_workspace_image": {
+      "infrastructure_highlight_image": {
         "pattern": "direct",
-        "key": "team_workspace_image",
-        "originalSrc": "/panelify-images/ChatGPT Image Mar 9, 2026, 10_52_46 PM.png",
+        "key": "infrastructure_highlight_image",
+        "originalSrc": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1400&q=80",
         "pendingSrc": null,
-        "alt": "Modern team workspace powered by Nexus",
+        "alt": "Modern server infrastructure powering Nexus edge computing features",
         "pendingAlt": null,
         "width": null,
         "height": null,
         "isNextImage": true,
-        "sourceFile": "src/app/page.js"
+        "sourceFile": "src/app/features/page.js"
+      },
+      "platform_overview_screenshot": {
+        "pattern": "direct",
+        "key": "platform_overview_screenshot",
+        "originalSrc": "/ChatGPT Image Mar 29, 2026, 02_13_14 AM.png",
+        "pendingSrc": null,
+        "alt": "Nexus platform dashboard featuring analytics and performance metrics",
+        "pendingAlt": null,
+        "width": null,
+        "height": null,
+        "isNextImage": true,
+        "sourceFile": "src/app/features/page.js"
+      },
+      "real_time_data_screenshot": {
+        "pattern": "direct",
+        "key": "real_time_data_screenshot",
+        "originalSrc": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&q=80",
+        "pendingSrc": null,
+        "alt": "Real-time analytics charts showing performance data in Nexus",
+        "pendingAlt": null,
+        "width": null,
+        "height": null,
+        "isNextImage": true,
+        "sourceFile": "src/app/features/page.js"
       }
     }
   }
