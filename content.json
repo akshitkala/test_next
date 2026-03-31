@@ -40,8 +40,8 @@
       "feature_highlight_banner_image": {
         "pattern": "direct",
         "key": "feature_highlight_banner_image",
-        "originalSrc": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1400&q=80",
-        "pendingSrc": "/panelify-images/catering.webp",
+        "originalSrc": "/panelify-images/catering.webp",
+        "pendingSrc": null,
         "alt": "Modern server infrastructure powering Nexus edge computing features",
         "pendingAlt": null,
         "width": null,
