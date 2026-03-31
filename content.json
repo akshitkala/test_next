@@ -1,14 +1,29 @@
 {
+  "features": {
+    "features_real_time_analytics_title": "Real-time Analytics",
+    "features_real_time_analytics_description": "Monitor your platform's performance with granular, real-time data visualization and insights.",
+    "features_edge_computing_title": "Edge Computing",
+    "features_edge_computing_description": "Deploy your logic closer to your users for ultra-low latency and superior performance.",
+    "features_global_cdn_title": "Global CDN",
+    "features_global_cdn_description": "Leverage our lightning-fast content delivery network to serve assets from over 300 locations worldwide.",
+    "features_automated_scaling_title": "Automated Scaling",
+    "features_automated_scaling_description": "Our infrastructure dynamically adapts to your traffic patterns, ensuring 100% uptime during spikes.",
+    "features_advanced_security_title": "Advanced Security",
+    "features_advanced_security_description": "DDoS protection, automated SSL, and advanced threat detection built into every request.",
+    "features_developer_api_title": "Developer API",
+    "features_developer_api_description": "Extensive, well-documented GraphQL and REST APIs to integrate Nexus into your existing workflow.",
+    "features_heading": "Everything you need to build the future."
+  },
   "home": {
-    "feature_grid_item_0_title": "Lightning Fast",
-    "feature_grid_item_0_description": "Built on top of the latest technologies for unmatched performance.",
-    "feature_grid_item_1_title": "Secure by Default",
-    "feature_grid_item_1_description": "Enterprise-grade security features right out of the box.",
-    "feature_grid_item_2_title": "Cloud Scale",
-    "feature_grid_item_2_description": "Automatically scale your applications as your user base grows."
+    "lightning_fast_title": "Lightning Fast",
+    "lightning_fast_description": "Built on top of the latest technologies for unmatched performance.",
+    "secure_by_default_title": "Secure by Default",
+    "secure_by_default_description": "Enterprise-grade security features right out of the box.",
+    "cloud_scale_title": "Cloud Scale",
+    "cloud_scale_description": "Automatically scale your applications as your user base grows."
   },
   "navbar": {
-    "navbar_brand_name": "NEXUS",
+    "navbar_logo_text": "NEXUS",
     "navbar_nav_link_features": "Features",
     "navbar_nav_link_solution": "Solution",
     "navbar_nav_link_company": "Company",
@@ -22,6 +37,42 @@
   },
   "page": {
     "images": {
+      "feature_highlight_banner_image": {
+        "pattern": "direct",
+        "key": "feature_highlight_banner_image",
+        "originalSrc": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1400&q=80",
+        "pendingSrc": null,
+        "alt": "Modern server infrastructure powering Nexus edge computing features",
+        "pendingAlt": null,
+        "width": null,
+        "height": null,
+        "isNextImage": true,
+        "sourceFile": "src/app/features/page.js"
+      },
+      "platform_dashboard_screenshot": {
+        "pattern": "direct",
+        "key": "platform_dashboard_screenshot",
+        "originalSrc": "/ChatGPT Image Mar 29, 2026, 02_13_14 AM.png",
+        "pendingSrc": null,
+        "alt": "Nexus platform dashboard featuring analytics and performance metrics",
+        "pendingAlt": null,
+        "width": null,
+        "height": null,
+        "isNextImage": true,
+        "sourceFile": "src/app/features/page.js"
+      },
+      "real_time_analytics_screenshot": {
+        "pattern": "direct",
+        "key": "real_time_analytics_screenshot",
+        "originalSrc": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&q=80",
+        "pendingSrc": null,
+        "alt": "Real-time analytics charts showing performance data in Nexus",
+        "pendingAlt": null,
+        "width": null,
+        "height": null,
+        "isNextImage": true,
+        "sourceFile": "src/app/features/page.js"
+      },
       "hero_dashboard_image": {
         "pattern": "direct",
         "key": "hero_dashboard_image",

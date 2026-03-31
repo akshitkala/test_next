@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-2 group">
           <div className="h-8 w-8 rounded-lg bg-gradient-primary transition-transform group-hover:scale-110" />
-          <span className="text-xl font-bold tracking-tighter">{content.navbar.navbar_brand_name}</span>
+          <span className="text-xl font-bold tracking-tighter">{content.navbar.navbar_logo_text}</span>
         </Link>
         
         <div className="hidden items-center gap-8 text-sm font-medium text-muted-foreground transition-colors md:flex">
