@@ -49,8 +49,8 @@
       "developer_collaboration_image": {
         "pattern": "direct",
         "key": "developer_collaboration_image",
-        "originalSrc": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
-        "pendingSrc": "/panelify-images/chatgpt-image-mar-29-2026-02_13_14-am.jpg",
+        "originalSrc": "/panelify-images/chatgpt-image-mar-29-2026-02_13_14-am.jpg",
+        "pendingSrc": null,
         "alt": "Developers collaborating and building with the Nexus platform",
         "pendingAlt": null,
         "width": null,
