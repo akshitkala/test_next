@@ -46,11 +46,11 @@ export default function Features() {
       <main className="relative pt-32 pb-20 md:pt-48 md:pb-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-16 text-center">
-            <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-accent">Features</h2>
+            <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-accent">{content.features.features_heading}</h2>
             <h1 className="mb-6 text-4xl font-extrabold tracking-tight md:text-6xl text-gradient">
               Everything you need <br /> to build the future.
             </h1>
-            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">Powerful tools and infrastructure designed for modern engineering teams. Built for speed, reliability, and infinite scale.</p>
+            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">{content.features.main_description}</p>
           </div>
 
           {/* Feature highlight banner — Unsplash external link */}
@@ -58,8 +58,8 @@ export default function Features() {
             <Image src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1400&q=80" alt="Modern server infrastructure powering Nexus edge computing features" fill className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
             <div className="absolute inset-0 flex flex-col justify-center px-12">
-              <span className="text-accent text-sm font-bold uppercase tracking-widest mb-3">Infrastructure</span>
-              <h2 className="text-3xl font-extrabold text-white max-w-lg">Powered by the world's most reliable infrastructure</h2>
+              <span className="text-accent text-sm font-bold uppercase tracking-widest mb-3">{content.features.infrastructure_badge}</span>
+              <h2 className="text-3xl font-extrabold text-white max-w-lg">{content.features.infrastructure_heading}</h2>
             </div>
           </div>
 
@@ -72,7 +72,7 @@ export default function Features() {
                 <p className="leading-relaxed text-muted-foreground">
                   {feature.description}
                 </p>
-                <div className="mt-6 flex items-center text-sm font-semibold text-accent opacity-0 transition-opacity group-hover:opacity-100">Learn more<svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="mt-6 flex items-center text-sm font-semibold text-accent opacity-0 transition-opacity group-hover:opacity-100">{content.features.feature_learn_more_button}<svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
                 </div>
@@ -81,28 +81,28 @@ export default function Features() {
 
           {/* Screenshot showcase — public folder + Unsplash */}
           <div className="mt-32">
-            <h2 className="mb-12 text-3xl font-bold text-center">See it in action</h2>
+            <h2 className="mb-12 text-3xl font-bold text-center">{content.features.see_it_in_action_heading}</h2>
             <div className="grid gap-6 lg:grid-cols-3">
               {/* Public folder image */}
               <div className="lg:col-span-2 group relative rounded-3xl overflow-hidden border border-white/10 aspect-video">
                 <Image src="/ChatGPT Image Mar 29, 2026, 02_13_14 AM.png" alt="Nexus platform dashboard featuring analytics and performance metrics" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-                <span className="absolute bottom-5 left-5 text-white font-bold text-lg">Platform Overview</span>
+                <span className="absolute bottom-5 left-5 text-white font-bold text-lg">{content.features.platform_overview_label}</span>
               </div>
               {/* Unsplash external image */}
               <div className="group relative rounded-3xl overflow-hidden border border-white/10 aspect-video lg:aspect-auto">
-                <Image src="/panelify-images/michu-dang-quang-unitqgjilry-unsplash.jpg" alt="Real-time analytics charts showing performance data in Nexus" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
+                <Image src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&q=80" alt="Real-time analytics charts showing performance data in Nexus" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-                <span className="absolute bottom-5 left-5 text-white font-bold text-lg">Real-time Data</span>
+                <span className="absolute bottom-5 left-5 text-white font-bold text-lg">{content.features.real_time_data_label}</span>
               </div>
             </div>
           </div>
 
           {/* CTA Section */}
           <div className="mt-32 rounded-[2.5rem] bg-gradient-to-b from-white/[0.05] to-transparent p-12 text-center border border-white/5">
-            <h2 className="mb-6 text-3xl font-bold md:text-4xl">Ready to experience Nexus?</h2>
-            <p className="mb-10 text-muted-foreground">Join thousands of developers building the next generation of web applications.</p>
-            <button className="rounded-full bg-foreground px-8 py-4 font-bold text-background transition-transform hover:scale-105 active:scale-95">Start Free Trial</button>
+            <h2 className="mb-6 text-3xl font-bold md:text-4xl">{content.features.cta_heading}</h2>
+            <p className="mb-10 text-muted-foreground">{content.features.cta_description}</p>
+            <button className="rounded-full bg-foreground px-8 py-4 font-bold text-background transition-transform hover:scale-105 active:scale-95">{content.features.cta_button_text}</button>
           </div>
         </div>
       </main>

@@ -82,7 +82,7 @@ export default function Home() {
                 </div>
                 {/* External Unsplash image */}
                 <div className="group relative rounded-3xl overflow-hidden border border-white/10 aspect-video">
-                  <Image src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80" alt="Developers collaborating and building with the Nexus platform" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
+                  <Image src="/panelify-images/chatgpt-image-mar-29-2026-02_13_14-am.jpg" alt="Developers collaborating and building with the Nexus platform" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   <div className="absolute bottom-6 left-6 text-left">
                     <span className="text-white font-bold text-xl">{content.home.developer_first_title}</span>
