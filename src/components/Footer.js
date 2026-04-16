@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <Link href="/" className="flex items-center gap-2 group">
             <div className="h-6 w-6 rounded bg-gradient-primary transition-transform group-hover:scale-110" />
-            <span className="text-lg font-bold tracking-tighter">{content.navbar.navbar_logo_text}</span>
+            <span className="text-lg font-bold tracking-tighter">{content.navbar.navbar_brand_name}</span>
           </Link>
           <p className="text-sm text-muted-foreground">{content.footer.footer_copyright_text}</p>
           <div className="flex gap-6 text-muted-foreground">
