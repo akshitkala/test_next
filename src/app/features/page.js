@@ -85,7 +85,7 @@ export default function Features() {
             <div className="grid gap-6 lg:grid-cols-3">
               {/* Public folder image */}
               <div className="lg:col-span-2 group relative rounded-3xl overflow-hidden border border-white/10 aspect-video">
-                <Image src="/panelify-images/hero.webp" alt="Nexus platform dashboard featuring analytics and performance metrics" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
+                <Image src="/ChatGPT Image Mar 29, 2026, 02_13_14 AM.png" alt="Nexus platform dashboard featuring analytics and performance metrics" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                 <span className="absolute bottom-5 left-5 text-white font-bold text-lg">Platform Overview</span>
               </div>
