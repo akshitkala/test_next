@@ -55,7 +55,7 @@ export default function Features() {
 
           {/* Feature highlight banner — Unsplash external link */}
           <div className="relative mb-16 rounded-[2.5rem] overflow-hidden border border-white/10 h-72">
-            <Image src="/panelify-images/catering.webp" alt="Modern server infrastructure powering Nexus edge computing features" fill className="object-cover" />
+            <Image src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1400&q=80" alt="Modern server infrastructure powering Nexus edge computing features" fill className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
             <div className="absolute inset-0 flex flex-col justify-center px-12">
               <span className="text-accent text-sm font-bold uppercase tracking-widest mb-3">{content.features.infrastructure_badge}</span>
