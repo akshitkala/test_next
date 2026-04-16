@@ -1,4 +1,3 @@
-import content from "../../../content.json";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -12,23 +11,27 @@ export default function Company() {
           <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
             <div>
               <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-accent">{content.company.our_mission_label}</h2>
-              <h1 className="mb-8 text-5xl font-extrabold tracking-tight md:text-7xl">{content.company.defining_the_text}<br />
-                <span className="text-gradient">{content.company.next_frontier_text}</span>
+              <h1 className="mb-8 text-5xl font-extrabold tracking-tight md:text-7xl">
+                Defining the <br />
+                <span className="text-gradient">next frontier.</span>
               </h1>
-              <p className="mb-8 text-xl leading-relaxed text-muted-foreground">{content.company.founded_in_2024_description}</p>
+              <p className="mb-8 text-xl leading-relaxed text-muted-foreground">
+                Founded in 2024, Nexus was born from a simple observation: the tools we use to build 
+                the web haven&apos;t kept pace with the complexity of what we&apos;re building.
+              </p>
               <p className="mb-10 text-lg leading-relaxed text-muted-foreground">{content.company.our_mission_description}</p>
               
               <div className="flex flex-wrap gap-8">
                 <div>
-                  <div className="text-4xl font-bold">{content.company.requests_per_second_value}</div>
+                  <div className="text-4xl font-bold">50M+</div>
                   <div className="text-sm text-muted-foreground uppercase tracking-widest mt-1">{content.company.requests_per_second_label}</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold">{content.company.uptime_sla_value}</div>
+                  <div className="text-4xl font-bold">99.99%</div>
                   <div className="text-sm text-muted-foreground uppercase tracking-widest mt-1">{content.company.uptime_sla_label}</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold">{content.company.countries_value}</div>
+                  <div className="text-4xl font-bold">120+</div>
                   <div className="text-sm text-muted-foreground uppercase tracking-widest mt-1">{content.company.countries_label}</div>
                 </div>
               </div>
