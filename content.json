@@ -83,7 +83,7 @@
         "pattern": "direct",
         "key": "sustainable_tech_team_image",
         "originalSrc": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80",
-        "pendingSrc": null,
+        "pendingSrc": "/panelify-images/hero.webp",
         "alt": "Sustainable tech team working together on green digital solutions",
         "pendingAlt": null,
         "width": 500,
