@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 export default function Features() {
   const features = [
     {
-      title: "Real-time Analytics",
+      title: "Real-time Analytics in real time",
       description: "Monitor your platform's performance with granular, real-time data visualization and insights.",
       icon: (
         <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
