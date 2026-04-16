@@ -2,20 +2,20 @@
   "home": {
     "nexus_v2_live": "Nexus V2.0 is now live",
     "elevate_digital_presence": "Elevate your digital presence",
-    "experience_future_innovation": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
+    "experience_future_innovation": "Experience the future of innovation with Nexus",
     "start_building_now": "Start Building Now",
     "view_documentation": "View Documentation",
     "lightning_fast": "Lightning Fast",
-    "lightning_fast_description": "Built on top of the latest technologies for unmatched performance.",
+    "built_on_latest_technologies": "Built on top of the latest technologies for unmatched performance",
     "secure_by_default": "Secure by Default",
-    "secure_by_default_description": "Enterprise-grade security features right out of the box.",
+    "enterprise_grade_security": "Enterprise-grade security features right out of the box",
     "cloud_scale": "Cloud Scale",
-    "cloud_scale_description": "Automatically scale your applications as your user base grows.",
+    "automatically_scale_applications": "Automatically scale your applications as your user base grows",
     "crafted_for_modern_teams": "Crafted for modern teams",
     "team_workspace": "Team Workspace",
-    "team_workspace_description": "Built for collaboration",
+    "built_for_collaboration": "Built for collaboration",
     "developer_first": "Developer First",
-    "developer_first_description": "Loved by engineers worldwide"
+    "loved_by_engineers_worldwide": "Loved by engineers worldwide"
   },
   "navbar": {
     "nexus_title": "NEXUS",
@@ -106,9 +106,9 @@
         "isNextImage": true,
         "sourceFile": "src/app/page.js"
       },
-      "developer_first_image": {
+      "developer_collaboration_image": {
         "pattern": "direct",
-        "key": "developer_first_image",
+        "key": "developer_collaboration_image",
         "originalSrc": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
         "pendingSrc": null,
         "alt": "Developers collaborating and building with the Nexus platform",

@@ -21,7 +21,10 @@ export default function Home() {
               <span className="text-gradient">digital presence.</span>
             </h1>
             
-            <p className="mb-12 max-w-2xl text-lg text-muted-foreground md:text-xl">{content.home.experience_future_innovation}</p>
+            <p className="mb-12 max-w-2xl text-lg text-muted-foreground md:text-xl">
+              Experience the future of innovation with Nexus. Our cutting-edge platform 
+              empowers individuals and teams to build, scale, and thrive in the modern web.
+            </p>
 
             <div className="flex flex-col gap-4 sm:flex-row">
               <button className="group relative flex h-14 items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-primary px-8 font-semibold text-white transition-all hover:shadow-[0_0_40px_rgba(139,92,246,0.3)]">{content.home.start_building_now}<svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -78,7 +81,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   <div className="absolute bottom-6 left-6 text-left">
                     <span className="text-white font-bold text-xl">{content.home.team_workspace}</span>
-                    <p className="text-white/70 text-sm mt-1">{content.home.team_workspace_description}</p>
+                    <p className="text-white/70 text-sm mt-1">{content.home.built_for_collaboration}</p>
                   </div>
                 </div>
                 {/* External Unsplash image */}
@@ -87,7 +90,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   <div className="absolute bottom-6 left-6 text-left">
                     <span className="text-white font-bold text-xl">{content.home.developer_first}</span>
-                    <p className="text-white/70 text-sm mt-1">{content.home.developer_first_description}</p>
+                    <p className="text-white/70 text-sm mt-1">{content.home.loved_by_engineers_worldwide}</p>
                   </div>
                 </div>
               </div>
