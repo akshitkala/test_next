@@ -86,7 +86,7 @@
         "pattern": "direct",
         "key": "public_folder_image",
         "originalSrc": "/ChatGPT Image Mar 29, 2026, 02_13_14 AM.png",
-        "pendingSrc": null,
+        "pendingSrc": "/panelify-images/hero.webp",
         "alt": "Nexus platform dashboard featuring analytics and performance metrics",
         "pendingAlt": null,
         "width": null,
