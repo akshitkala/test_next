@@ -70,7 +70,7 @@ export default function Features() {
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-accent">Features</h2>
             <h1 className="mb-6 text-4xl font-extrabold tracking-tight md:text-6xl text-gradient">
-              Everything you need <br /> to build the future.
+              Everything you need <br /> to build the future is here.
             </h1>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
               Powerful tools and infrastructure designed for modern engineering teams. 
