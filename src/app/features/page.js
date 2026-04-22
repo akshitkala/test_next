@@ -146,7 +146,7 @@ export default function Features() {
 
           {/* CTA Section */}
           <div className="mt-32 rounded-[2.5rem] bg-gradient-to-b from-white/[0.05] to-transparent p-12 text-center border border-white/5">
-            <h2 className="mb-6 text-3xl font-bold md:text-4xl">Ready to experience Nexus in your domain?</h2>
+            <h2 className="mb-6 text-3xl font-bold md:text-4xl">Ready to experience Nexus in your domain integrated with panelify?</h2>
             <p className="mb-10 text-muted-foreground">Join thousands of developers building the next generation of web applications.</p>
             <button className="rounded-full bg-foreground px-8 py-4 font-bold text-background transition-transform hover:scale-105 active:scale-95">
               Start Free Trial
