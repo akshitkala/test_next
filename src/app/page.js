@@ -35,7 +35,7 @@ export default function Home() {
             <div className="relative mt-20 w-full max-w-5xl">
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-b from-transparent via-transparent to-background z-10 pointer-events-none" />
               <div className="rounded-3xl border border-white/10 overflow-hidden shadow-[0_40px_120px_rgba(139,92,246,0.2)]">
-                <Image src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80" alt={content.home.nexus_analytics_dashboard} width={1200} height={675} className="w-full object-cover" priority />
+                <Image src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80" alt="Nexus analytics dashboard with real-time data visualization" width={1200} height={675} className="w-full object-cover" priority />
               </div>
             </div>
 
@@ -74,7 +74,7 @@ export default function Home() {
               <div className="grid gap-6 sm:grid-cols-2">
                 {/* Public folder image */}
                 <div className="group relative rounded-3xl overflow-hidden border border-white/10 aspect-video">
-                  <Image src="/CateringHome.jpg" alt={content.home.modern_team_workspace} fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
+                  <Image src="/CateringHome.jpg" alt="Modern team workspace powered by Nexus" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   <div className="absolute bottom-6 left-6 text-left">
                     <span className="text-white font-bold text-xl">{content.home.team_workspace}</span>
@@ -83,7 +83,7 @@ export default function Home() {
                 </div>
                 {/* External Unsplash image */}
                 <div className="group relative rounded-3xl overflow-hidden border border-white/10 aspect-video">
-                  <Image src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80" alt={content.home.developers_collaborating} fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
+                  <Image src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80" alt="Developers collaborating and building with the Nexus platform" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   <div className="absolute bottom-6 left-6 text-left">
                     <span className="text-white font-bold text-xl">{content.home.developer_first}</span>

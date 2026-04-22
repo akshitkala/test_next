@@ -28,7 +28,7 @@ export default function Navbar() {
             </Link>)}
         </div>
 
-        <button className="rounded-full bg-foreground px-5 py-2 text-sm font-semibold text-background transition-transform hover:scale-105 active:scale-95">{content.navbar.navbar_get_started_button}</button>
+        <button className="rounded-full bg-foreground px-5 py-2 text-sm font-semibold text-background transition-transform hover:scale-105 active:scale-95">{content.navbar.get_started_button_text}</button>
       </div>
     </nav>;
 }
