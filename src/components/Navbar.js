@@ -36,7 +36,7 @@ export default function Navbar() {
             </Link>)}
         </div>
 
-        <button className="rounded-full bg-accent px-5 py-2 text-sm font-semibold text-white transition-transform hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(245,130,32,0.3)]">{content.home.apply_now}</button>
+        <button className="rounded-full bg-accent px-5 py-2 text-sm font-semibold text-white transition-transform hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(245,130,32,0.3)]">{content.home.apply_now_button}</button>
       </div>
     </nav>;
 }

@@ -44,25 +44,20 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 inline-flex animate-float items-center rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm font-medium text-accent">
-              <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">{content.home.admissions_open_2024}</span>{content.home.shape_your_future}</div>
+              <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">{content.home.admissions_open_2024}</span>{content.home.hero_tagline_secondary}</div>
             
-            <h1 className="mb-8 max-w-5xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl leading-tight">
-              Transforming Education <br />
-              <span className="text-gradient">Empowering Global Leaders</span>
+            <h1 className="mb-8 max-w-5xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl leading-tight">{content.home.hero_heading_part_1}<br />
+              <span className="text-gradient">{content.home.hero_heading_part_2}</span>
             </h1>
             
-            <p className="mb-12 max-w-3xl text-lg text-muted-foreground md:text-xl leading-relaxed">
-              Experience a world-class education at Lovely Professional University. 
-              With a 600-acre hi-tech campus, industry-aligned curriculum, and unmatched 
-              placement records, we prepare you for the global stage.
-            </p>
+            <p className="mb-12 max-w-3xl text-lg text-muted-foreground md:text-xl leading-relaxed">{content.home.hero_description}</p>
 
             <div className="flex flex-col gap-4 sm:flex-row">
-              <button className="group relative flex h-14 items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-primary px-10 font-semibold text-white transition-all hover:shadow-[0_0_40px_rgba(245,130,32,0.4)] hover:scale-105 active:scale-95">{content.home.explore_programs}<svg className="h-5 w-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <button className="group relative flex h-14 items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-primary px-10 font-semibold text-white transition-all hover:shadow-[0_0_40px_rgba(245,130,32,0.4)] hover:scale-105 active:scale-95">{content.home.explore_programs_button}<svg className="h-5 w-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </button>
-              <button className="flex h-14 items-center justify-center rounded-full border border-white/10 bg-white/5 px-10 font-semibold transition-all hover:bg-white/10 hover:border-white/20">{content.home.virtual_tour}</button>
+              <button className="flex h-14 items-center justify-center rounded-full border border-white/10 bg-white/5 px-10 font-semibold transition-all hover:bg-white/10 hover:border-white/20">{content.home.virtual_tour_button}</button>
             </div>
 
             {/* Stats Section */}
@@ -80,8 +75,8 @@ export default function Home() {
                 <Image src="https://images.unsplash.com/photo-1541339907198-e08756ebafe3?w=1200&q=80" alt="LPU Hi-tech Campus Architecture" width={1200} height={675} className="w-full object-cover transition-transform duration-700 group-hover:scale-105" priority />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-12">
                    <div className="text-left">
-                      <h3 className="text-3xl font-bold text-white mb-2">A Campus Like No Other</h3>
-                      <p className="text-white/70 max-w-xl">Sprawled across 600 acres, our campus is a vibrant ecosystem of learning, innovation, and cultural diversity.</p>
+                      <h3 className="text-3xl font-bold text-white mb-2">{content.home.campus_like_no_other_heading}</h3>
+                      <p className="text-white/70 max-w-xl">{content.home.campus_like_no_other_description}</p>
                    </div>
                 </div>
               </div>
@@ -90,8 +85,8 @@ export default function Home() {
             {/* Academic Categories */}
             <div className="mt-40 w-full">
               <div className="flex flex-col items-center mb-16">
-                <h2 className="text-4xl font-bold mb-4">{content.home.discover_your_passion}</h2>
-                <p className="text-muted-foreground text-center max-w-2xl">{content.home.choose_from_200_programs}</p>
+                <h2 className="text-4xl font-bold mb-4">{content.home.discover_your_passion_heading}</h2>
+                <p className="text-muted-foreground text-center max-w-2xl">{content.home.discover_your_passion_description}</p>
               </div>
               <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                 {categories.map((cat, i) => <div key={i} className="group relative h-[400px] rounded-3xl overflow-hidden border border-white/10 cursor-pointer">
@@ -99,7 +94,7 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent transition-opacity group-hover:opacity-90" />
                     <div className="absolute bottom-8 left-8 right-8 text-left">
                       <h4 className="text-2xl font-bold text-white mb-4">{cat.title}</h4>
-                      <button className="flex items-center gap-2 text-sm font-semibold text-accent opacity-0 translate-y-4 transition-all group-hover:opacity-100 group-hover:translate-y-0">{content.home.view_details}<svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <button className="flex items-center gap-2 text-sm font-semibold text-accent opacity-0 translate-y-4 transition-all group-hover:opacity-100 group-hover:translate-y-0">{content.home.view_details_button}<svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
                       </button>
@@ -111,7 +106,7 @@ export default function Home() {
             {/* Why LPU Section */}
             <div className="mt-40 grid gap-12 lg:grid-cols-2 items-center text-left">
                <div>
-                  <h2 className="text-4xl font-bold mb-8 leading-tight">Why Choose <br /><span className="text-accent">Lovely Professional University?</span></h2>
+                  <h2 className="text-4xl font-bold mb-8 leading-tight">{content.home.why_choose_heading_part_1}<br /><span className="text-accent">{content.home.why_choose_heading_part_2}</span></h2>
                   <div className="space-y-6">
                      {[{
                   title: "Global Exposure",
@@ -148,15 +143,15 @@ export default function Home() {
                <div className="absolute inset-0 rounded-[3rem] bg-gradient-primary opacity-10 blur-3xl" />
                <div className="relative p-12 md:p-20 rounded-[3rem] border border-white/10 bg-white/5 overflow-hidden">
                   <div className="max-w-2xl">
-                     <h2 className="text-4xl md:text-5xl font-bold mb-6">{content.home.ready_to_start_your_journey}</h2>
-                     <p className="text-xl text-muted-foreground mb-10">{content.home.join_thousands_of_students}</p>
+                     <h2 className="text-4xl md:text-5xl font-bold mb-6">{content.home.cta_heading}</h2>
+                     <p className="text-xl text-muted-foreground mb-10">{content.home.cta_description}</p>
                      <div className="flex flex-col sm:flex-row gap-4">
-                        <button className="h-14 px-10 rounded-full bg-accent text-white font-bold hover:shadow-[0_0_30px_rgba(245,130,32,0.5)] transition-all">{content.home.apply_now}</button>
-                        <button className="h-14 px-10 rounded-full border border-white/20 bg-transparent font-bold hover:bg-white/5 transition-all">{content.home.download_brochure}</button>
+                        <button className="h-14 px-10 rounded-full bg-accent text-white font-bold hover:shadow-[0_0_30px_rgba(245,130,32,0.5)] transition-all">{content.home.apply_now_button}</button>
+                        <button className="h-14 px-10 rounded-full border border-white/20 bg-transparent font-bold hover:bg-white/5 transition-all">{content.home.download_brochure_button}</button>
                      </div>
                   </div>
                   <div className="hidden lg:block absolute top-0 right-0 w-1/3 h-full grayscale opacity-20 pointer-events-none">
-                     <Image src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80" alt={content.home.students} fill className="object-cover" />
+                     <Image src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80" alt={content.home.stats_students_label} fill className="object-cover" />
                   </div>
                </div>
             </div>

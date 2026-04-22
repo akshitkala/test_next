@@ -18,7 +18,7 @@
       }
     },
     {
-      "key": "home.shape_your_future",
+      "key": "home.hero_tagline_secondary",
       "original": "\n              Shape Your Future at India's Largest University\n            ",
       "type": "text",
       "loc": {
@@ -35,7 +35,58 @@
       }
     },
     {
-      "key": "home.explore_programs",
+      "key": "home.hero_heading_part_1",
+      "original": "\n              Transforming Education ",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 120,
+          "index": 1976
+        },
+        "end": {
+          "line": 53,
+          "column": 37,
+          "index": 2014
+        }
+      }
+    },
+    {
+      "key": "home.hero_heading_part_2",
+      "original": "Empowering Global Leaders",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 46,
+          "index": 2067
+        },
+        "end": {
+          "line": 54,
+          "column": 71,
+          "index": 2092
+        }
+      }
+    },
+    {
+      "key": "home.hero_description",
+      "original": "\n              Experience a world-class education at Lovely Professional University. \n              With a 600-acre hi-tech campus, industry-aligned curriculum, and unmatched \n              placement records, we prepare you for the global stage.\n            ",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 100,
+          "index": 2231
+        },
+        "end": {
+          "line": 61,
+          "column": 12,
+          "index": 2489
+        }
+      }
+    },
+    {
+      "key": "home.explore_programs_button",
       "original": "\n                Explore Programs\n                ",
       "type": "text",
       "loc": {
@@ -52,7 +103,7 @@
       }
     },
     {
-      "key": "home.virtual_tour",
+      "key": "home.virtual_tour_button",
       "original": "\n                Virtual Tour\n              ",
       "type": "text",
       "loc": {
@@ -69,7 +120,41 @@
       }
     },
     {
-      "key": "home.discover_your_passion",
+      "key": "home.campus_like_no_other_heading",
+      "original": "A Campus Like No Other",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 99,
+          "column": 73,
+          "index": 5149
+        },
+        "end": {
+          "line": 99,
+          "column": 95,
+          "index": 5171
+        }
+      }
+    },
+    {
+      "key": "home.campus_like_no_other_description",
+      "original": "Sprawled across 600 acres, our campus is a vibrant ecosystem of learning, innovation, and cultural diversity.",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 100,
+          "column": 60,
+          "index": 5237
+        },
+        "end": {
+          "line": 100,
+          "column": 169,
+          "index": 5346
+        }
+      }
+    },
+    {
+      "key": "home.discover_your_passion_heading",
       "original": "Discover Your Passion",
       "type": "text",
       "loc": {
@@ -86,7 +171,7 @@
       }
     },
     {
-      "key": "home.choose_from_200_programs",
+      "key": "home.discover_your_passion_description",
       "original": "Choose from 200+ programs across various disciplines, designed to meet the demands of the modern industry.",
       "type": "text",
       "loc": {
@@ -103,7 +188,7 @@
       }
     },
     {
-      "key": "home.view_details",
+      "key": "home.view_details_button",
       "original": "\n                        View Details\n                        ",
       "type": "text",
       "loc": {
@@ -120,7 +205,41 @@
       }
     },
     {
-      "key": "home.ready_to_start_your_journey",
+      "key": "home.why_choose_heading_part_1",
+      "original": "Why Choose ",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 139,
+          "column": 72,
+          "index": 7553
+        },
+        "end": {
+          "line": 139,
+          "column": 83,
+          "index": 7564
+        }
+      }
+    },
+    {
+      "key": "home.why_choose_heading_part_2",
+      "original": "Lovely Professional University?",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 139,
+          "column": 119,
+          "index": 7600
+        },
+        "end": {
+          "line": 139,
+          "column": 150,
+          "index": 7631
+        }
+      }
+    },
+    {
+      "key": "home.cta_heading",
       "original": "Ready to start your journey?",
       "type": "text",
       "loc": {
@@ -137,7 +256,7 @@
       }
     },
     {
-      "key": "home.join_thousands_of_students",
+      "key": "home.cta_description",
       "original": "Join thousands of students from around the world and build a career you're proud of. Admissions are currently open for 2024-25.",
       "type": "text",
       "loc": {
@@ -154,7 +273,7 @@
       }
     },
     {
-      "key": "home.apply_now",
+      "key": "home.apply_now_button",
       "original": "Apply Now",
       "type": "text",
       "loc": {
@@ -171,7 +290,7 @@
       }
     },
     {
-      "key": "home.download_brochure",
+      "key": "home.download_brochure_button",
       "original": "Download Brochure",
       "type": "text",
       "loc": {
@@ -188,7 +307,7 @@
       }
     },
     {
-      "key": "home.students",
+      "key": "home.stats_students_label",
       "original": "Students",
       "type": "attribute",
       "loc": {
@@ -224,7 +343,7 @@
       }
     },
     {
-      "key": "home.apply_now",
+      "key": "home.apply_now_button",
       "original": "\n          Apply Now\n        ",
       "type": "text",
       "loc": {
@@ -277,24 +396,7 @@
       }
     },
     {
-      "key": "footer.footer_quick_links",
-      "original": "Quick Links",
-      "type": "text",
-      "loc": {
-        "start": {
-          "line": 19,
-          "column": 45,
-          "index": 1015
-        },
-        "end": {
-          "line": 19,
-          "column": 56,
-          "index": 1026
-        }
-      }
-    },
-    {
-      "key": "footer.footer_about_us",
+      "key": "footer.footer_quick_links_about",
       "original": "About Us",
       "type": "text",
       "loc": {
@@ -362,24 +464,7 @@
       }
     },
     {
-      "key": "footer.footer_contact",
-      "original": "Contact",
-      "type": "text",
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 45,
-          "index": 1592
-        },
-        "end": {
-          "line": 28,
-          "column": 52,
-          "index": 1599
-        }
-      }
-    },
-    {
-      "key": "footer.footer_address",
+      "key": "footer.footer_contact_address",
       "original": "Jalandhar - Delhi, G.T. Road, Phagwara, Punjab",
       "type": "text",
       "loc": {
