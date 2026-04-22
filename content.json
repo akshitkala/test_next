@@ -1,20 +1,81 @@
 {
+  "company": {
+    "our_mission_label": "Our Mission",
+    "defining_the_next_frontier": "Defining the next frontier.",
+    "founded_in_2024": "Founded in 2024, Nexus was born from a simple observation: the tools we use to build the web haven't kept pace with the complexity of what we're building.",
+    "our_mission_description": "Our mission is to bridge this gap by providing an integrated ecosystem that handles the infrastructure, security, and scaling, so you can focus on what matters: delivering incredible experiences to your users.",
+    "requests_per_second": "50M+",
+    "requests_per_second_description": "Requests/sec",
+    "uptime_sla": "99.99%",
+    "uptime_sla_description": "Uptime SLA",
+    "countries": "120+",
+    "countries_description": "Countries",
+    "our_people_label": "Our People",
+    "a_team_of_builders_dreamers": "A team of builders & dreamers",
+    "guided_by_our_values": "Guided by our values",
+    "radical_transparency": "Radical Transparency",
+    "radical_transparency_description": "We believe in being open about our processes, successes, and even our failures.",
+    "customer_obsession": "Customer Obsession",
+    "customer_obsession_description": "Every choice we make starts with how it will improve our users' workflows.",
+    "relentless_innovation": "Relentless Innovation",
+    "relentless_innovation_description": "We never settle for \"good enough.\" We are constantly pushing the boundaries.",
+    "images": {
+      "nexus_team_culture": {
+        "pattern": "direct",
+        "key": "nexus_team_culture",
+        "originalSrc": "/catering.webp",
+        "pendingSrc": null,
+        "alt": "Nexus team culture — collaborative and innovative workplace",
+        "pendingAlt": null,
+        "width": 500,
+        "height": 500,
+        "isNextImage": true,
+        "sourceFile": "src/app/company/page.js"
+      },
+      "sustainable_tech_team": {
+        "pattern": "direct",
+        "key": "sustainable_tech_team",
+        "originalSrc": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80",
+        "pendingSrc": null,
+        "alt": "Sustainable tech team working together on green digital solutions",
+        "pendingAlt": null,
+        "width": 500,
+        "height": 500,
+        "isNextImage": true,
+        "sourceFile": "src/app/company/page.js"
+      },
+      "nexus_team_gathered": {
+        "pattern": "direct",
+        "key": "nexus_team_gathered",
+        "originalSrc": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1400&q=80",
+        "pendingSrc": null,
+        "alt": "The Nexus team gathered together in a modern office environment",
+        "pendingAlt": null,
+        "width": null,
+        "height": null,
+        "isNextImage": true,
+        "sourceFile": "src/app/company/page.js"
+      }
+    }
+  },
   "home": {
-    "nexus_v2_live": "Nexus V2.0 is now live",
-    "elevate_digital_presence": "Elevate your digital presence",
-    "experience_future_innovation": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
+    "nexus_v2_is_now_live": "Nexus V2.0 is now live",
+    "elevate_your_digital_presence": "Elevate your digital presence.",
+    "experience_the_future_of_innovation": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
     "start_building_now": "Start Building Now",
     "view_documentation": "View Documentation",
+    "nexus_analytics_dashboard": "Nexus analytics dashboard with real-time data visualization",
     "lightning_fast": "Lightning Fast",
-    "built_on_latest_technologies": "Built on top of the latest technologies for unmatched performance",
+    "built_on_top_of_the_latest_technologies": "Built on top of the latest technologies for unmatched performance.",
     "secure_by_default": "Secure by Default",
-    "enterprise_grade_security": "Enterprise-grade security features right out of the box",
+    "enterprise_grade_security_features": "Enterprise-grade security features right out of the box.",
     "cloud_scale": "Cloud Scale",
-    "automatically_scale_applications": "Automatically scale your applications as your user base grows",
+    "automatically_scale_your_applications": "Automatically scale your applications as your user base grows.",
     "crafted_for_modern_teams": "Crafted for modern teams",
     "modern_team_workspace": "Modern team workspace powered by Nexus",
     "team_workspace": "Team Workspace",
     "built_for_collaboration": "Built for collaboration",
+    "developers_collaborating": "Developers collaborating and building with the Nexus platform",
     "developer_first": "Developer First",
     "loved_by_engineers_worldwide": "Loved by engineers worldwide",
     "images": {
@@ -42,9 +103,9 @@
         "isNextImage": true,
         "sourceFile": "src/app/page.js"
       },
-      "developer_first_image": {
+      "developers_collaborating_image": {
         "pattern": "direct",
-        "key": "developer_first_image",
+        "key": "developers_collaborating_image",
         "originalSrc": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
         "pendingSrc": null,
         "alt": "Developers collaborating and building with the Nexus platform",
@@ -53,34 +114,49 @@
         "height": null,
         "isNextImage": true,
         "sourceFile": "src/app/page.js"
+      },
+      "features": {
+        "pattern": "array",
+        "key": "features",
+        "arrayVar": "features",
+        "sourceFile": "src/app/page.js",
+        "items": [
+          {
+            "index": 0,
+            "originalSrc": null,
+            "pendingSrc": null,
+            "alt": "",
+            "pendingAlt": null
+          },
+          {
+            "index": 1,
+            "originalSrc": null,
+            "pendingSrc": null,
+            "alt": "",
+            "pendingAlt": null
+          },
+          {
+            "index": 2,
+            "originalSrc": null,
+            "pendingSrc": null,
+            "alt": "",
+            "pendingAlt": null
+          }
+        ]
       }
     }
   },
   "navbar": {
-    "nexus_title": "NEXUS",
-    "get_started_button": "Get Started",
-    "features_link": "Features",
-    "solution_link": "Solution",
-    "company_link": "Company",
-    "images": {
-      "navbar_logo": {
-        "pattern": "direct",
-        "key": "navbar_logo",
-        "originalSrc": null,
-        "pendingSrc": null,
-        "alt": "",
-        "pendingAlt": null,
-        "width": null,
-        "height": null,
-        "isNextImage": false,
-        "sourceFile": "src/components/Navbar.js"
-      }
-    }
+    "navbar_nav_link_features": "Features",
+    "navbar_nav_link_solution": "Solution",
+    "navbar_nav_link_company": "Company",
+    "navbar_brand_name": "NEXUS",
+    "navbar_get_started_button": "Get Started"
   },
   "footer": {
-    "copyright_text": "2026 Nexus Technologies Inc. All rights reserved.",
-    "twitter_link": "Twitter",
-    "github_link": "GitHub",
-    "discord_link": "Discord"
+    "footer_copyright_text": "© 2026 Nexus Technologies Inc. All rights reserved.",
+    "footer_social_link_twitter": "Twitter",
+    "footer_social_link_github": "GitHub",
+    "footer_social_link_discord": "Discord"
   }
 }

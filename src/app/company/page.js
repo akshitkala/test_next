@@ -12,24 +12,25 @@ export default function Company() {
           <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
             <div>
               <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-accent">{content.company.our_mission_label}</h2>
-              <h1 className="mb-8 text-5xl font-extrabold tracking-tight md:text-7xl">{content.company.defining_the_text}<br />
-                <span className="text-gradient">{content.company.next_frontier_text}</span>
+              <h1 className="mb-8 text-5xl font-extrabold tracking-tight md:text-7xl">
+                Defining the <br />
+                <span className="text-gradient">next frontier.</span>
               </h1>
-              <p className="mb-8 text-xl leading-relaxed text-muted-foreground">{content.company.founded_in_2024_description}</p>
+              <p className="mb-8 text-xl leading-relaxed text-muted-foreground">{content.company.founded_in_2024}</p>
               <p className="mb-10 text-lg leading-relaxed text-muted-foreground">{content.company.our_mission_description}</p>
               
               <div className="flex flex-wrap gap-8">
                 <div>
-                  <div className="text-4xl font-bold">{content.company.requests_per_second_value}</div>
-                  <div className="text-sm text-muted-foreground uppercase tracking-widest mt-1">{content.company.requests_per_second_label}</div>
+                  <div className="text-4xl font-bold">{content.company.requests_per_second}</div>
+                  <div className="text-sm text-muted-foreground uppercase tracking-widest mt-1">{content.company.requests_per_second_description}</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold">{content.company.uptime_sla_value}</div>
-                  <div className="text-sm text-muted-foreground uppercase tracking-widest mt-1">{content.company.uptime_sla_label}</div>
+                  <div className="text-4xl font-bold">{content.company.uptime_sla}</div>
+                  <div className="text-sm text-muted-foreground uppercase tracking-widest mt-1">{content.company.uptime_sla_description}</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold">{content.company.countries_value}</div>
-                  <div className="text-sm text-muted-foreground uppercase tracking-widest mt-1">{content.company.countries_label}</div>
+                  <div className="text-4xl font-bold">{content.company.countries}</div>
+                  <div className="text-sm text-muted-foreground uppercase tracking-widest mt-1">{content.company.countries_description}</div>
                 </div>
               </div>
             </div>
@@ -53,13 +54,13 @@ export default function Company() {
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
             <div className="absolute inset-0 flex flex-col justify-center px-12">
               <span className="text-accent text-sm font-bold uppercase tracking-widest mb-3">{content.company.our_people_label}</span>
-              <h2 className="text-4xl font-extrabold text-white max-w-md">{content.company.team_of_builders_dreamers_text}</h2>
+              <h2 className="text-4xl font-extrabold text-white max-w-md">{content.company.a_team_of_builders_dreamers}</h2>
             </div>
           </div>
 
           {/* Core Values */}
           <div className="mt-32">
-            <h2 className="mb-16 text-3xl font-bold text-center">{content.company.guided_by_our_values_label}</h2>
+            <h2 className="mb-16 text-3xl font-bold text-center">{content.company.guided_by_our_values}</h2>
             <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
               {[{
               title: "Radical Transparency",
