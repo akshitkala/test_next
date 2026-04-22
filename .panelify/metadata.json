@@ -1,0 +1,467 @@
+{
+  "src/app/page.js": [
+    {
+      "key": "home.admissions_open_2024",
+      "original": "Admissions Open 2024",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 122,
+          "index": 1734
+        },
+        "end": {
+          "line": 48,
+          "column": 142,
+          "index": 1754
+        }
+      }
+    },
+    {
+      "key": "home.shape_your_future",
+      "original": "\n              Shape Your Future at India's Largest University\n            ",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 149,
+          "index": 1761
+        },
+        "end": {
+          "line": 50,
+          "column": 12,
+          "index": 1836
+        }
+      }
+    },
+    {
+      "key": "home.explore_programs",
+      "original": "\n                Explore Programs\n                ",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 265,
+          "index": 2822
+        },
+        "end": {
+          "line": 66,
+          "column": 16,
+          "index": 2872
+        }
+      }
+    },
+    {
+      "key": "home.virtual_tour",
+      "original": "\n                Virtual Tour\n              ",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 194,
+          "index": 3357
+        },
+        "end": {
+          "line": 72,
+          "column": 14,
+          "index": 3401
+        }
+      }
+    },
+    {
+      "key": "home.discover_your_passion",
+      "original": "Discover Your Passion",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 109,
+          "column": 56,
+          "index": 5645
+        },
+        "end": {
+          "line": 109,
+          "column": 77,
+          "index": 5666
+        }
+      }
+    },
+    {
+      "key": "home.choose_from_200_programs",
+      "original": "Choose from 200+ programs across various disciplines, designed to meet the demands of the modern industry.",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 110,
+          "column": 75,
+          "index": 5747
+        },
+        "end": {
+          "line": 110,
+          "column": 181,
+          "index": 5853
+        }
+      }
+    },
+    {
+      "key": "home.view_details",
+      "original": "\n                        View Details\n                        ",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 124,
+          "column": 189,
+          "index": 6907
+        },
+        "end": {
+          "line": 126,
+          "column": 24,
+          "index": 6969
+        }
+      }
+    },
+    {
+      "key": "home.ready_to_start_your_journey",
+      "original": "Ready to start your journey?",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 176,
+          "column": 73,
+          "index": 9999
+        },
+        "end": {
+          "line": 176,
+          "column": 101,
+          "index": 10027
+        }
+      }
+    },
+    {
+      "key": "home.join_thousands_of_students",
+      "original": "Join thousands of students from around the world and build a career you're proud of. Admissions are currently open for 2024-25.",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 177,
+          "column": 72,
+          "index": 10105
+        },
+        "end": {
+          "line": 177,
+          "column": 199,
+          "index": 10232
+        }
+      }
+    },
+    {
+      "key": "home.apply_now",
+      "original": "Apply Now",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 179,
+          "column": 159,
+          "index": 10467
+        },
+        "end": {
+          "line": 179,
+          "column": 168,
+          "index": 10476
+        }
+      }
+    },
+    {
+      "key": "home.download_brochure",
+      "original": "Download Brochure",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 180,
+          "column": 148,
+          "index": 10634
+        },
+        "end": {
+          "line": 180,
+          "column": 165,
+          "index": 10651
+        }
+      }
+    },
+    {
+      "key": "home.students",
+      "original": "Students",
+      "type": "attribute",
+      "loc": {
+        "start": {
+          "line": 184,
+          "column": 106,
+          "index": 10949
+        },
+        "end": {
+          "line": 184,
+          "column": 120,
+          "index": 10963
+        }
+      }
+    }
+  ],
+  "src/components/Navbar.js": [
+    {
+      "key": "navbar.navbar_university_name",
+      "original": "Lovely Professional University",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 73,
+          "index": 978
+        },
+        "end": {
+          "line": 24,
+          "column": 103,
+          "index": 1008
+        }
+      }
+    },
+    {
+      "key": "home.apply_now",
+      "original": "\n          Apply Now\n        ",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 186,
+          "index": 1703
+        },
+        "end": {
+          "line": 43,
+          "column": 8,
+          "index": 1732
+        }
+      }
+    }
+  ],
+  "src/components/Footer.js": [
+    {
+      "key": "navbar.navbar_university_name",
+      "original": "Lovely Professional University",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 79,
+          "index": 633
+        },
+        "end": {
+          "line": 11,
+          "column": 109,
+          "index": 663
+        }
+      }
+    },
+    {
+      "key": "footer.footer_description",
+      "original": "\n                India's largest university providing world-class education and transforming \n                millions of lives through innovation and excellence.\n              ",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 60,
+          "index": 753
+        },
+        "end": {
+          "line": 16,
+          "column": 14,
+          "index": 930
+        }
+      }
+    },
+    {
+      "key": "footer.footer_quick_links",
+      "original": "Quick Links",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 45,
+          "index": 1015
+        },
+        "end": {
+          "line": 19,
+          "column": 56,
+          "index": 1026
+        }
+      }
+    },
+    {
+      "key": "footer.footer_about_us",
+      "original": "About Us",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 71,
+          "index": 1174
+        },
+        "end": {
+          "line": 21,
+          "column": 79,
+          "index": 1182
+        }
+      }
+    },
+    {
+      "key": "navbar.navbar_academics",
+      "original": "Academics",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 75,
+          "index": 1270
+        },
+        "end": {
+          "line": 22,
+          "column": 84,
+          "index": 1279
+        }
+      }
+    },
+    {
+      "key": "navbar.navbar_admissions",
+      "original": "Admissions",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 76,
+          "index": 1368
+        },
+        "end": {
+          "line": 23,
+          "column": 86,
+          "index": 1378
+        }
+      }
+    },
+    {
+      "key": "navbar.navbar_campus_life",
+      "original": "Campus Life",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 77,
+          "index": 1468
+        },
+        "end": {
+          "line": 24,
+          "column": 88,
+          "index": 1479
+        }
+      }
+    },
+    {
+      "key": "footer.footer_contact",
+      "original": "Contact",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 45,
+          "index": 1592
+        },
+        "end": {
+          "line": 28,
+          "column": 52,
+          "index": 1599
+        }
+      }
+    },
+    {
+      "key": "footer.footer_address",
+      "original": "Jalandhar - Delhi, G.T. Road, Phagwara, Punjab",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 21,
+          "index": 1697
+        },
+        "end": {
+          "line": 30,
+          "column": 67,
+          "index": 1743
+        }
+      }
+    },
+    {
+      "key": "footer.footer_facebook",
+      "original": "Facebook",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 72,
+          "index": 2318
+        },
+        "end": {
+          "line": 41,
+          "column": 80,
+          "index": 2326
+        }
+      }
+    },
+    {
+      "key": "footer.footer_instagram",
+      "original": "Instagram",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 72,
+          "index": 2403
+        },
+        "end": {
+          "line": 42,
+          "column": 81,
+          "index": 2412
+        }
+      }
+    },
+    {
+      "key": "footer.footer_linkedin",
+      "original": "LinkedIn",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 72,
+          "index": 2489
+        },
+        "end": {
+          "line": 43,
+          "column": 80,
+          "index": 2497
+        }
+      }
+    },
+    {
+      "key": "footer.footer_youtube",
+      "original": "YouTube",
+      "type": "text",
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 72,
+          "index": 2574
+        },
+        "end": {
+          "line": 44,
+          "column": 79,
+          "index": 2581
+        }
+      }
+    }
+  ]
+}

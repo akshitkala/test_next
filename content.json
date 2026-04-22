@@ -1,117 +1,140 @@
 {
   "home": {
-    "nexus_v2_is_now_live": "Nexus V2.0 is now live",
-    "elevate_your_digital_presence": "Elevate your digital presence.",
-    "experience_the_future_of_innovation": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
-    "start_building_now": "Start Building Now",
-    "view_documentation": "View Documentation",
-    "nexus_analytics_dashboard": "Nexus analytics dashboard with real-time data visualization",
-    "lightning_fast": "Lightning Fast",
-    "built_on_top_of_the_latest_technologies": "Built on top of the latest technologies for unmatched performance.",
-    "secure_by_default": "Secure by Default",
-    "enterprise_grade_security_features": "Enterprise-grade security features right out of the box.",
-    "cloud_scale": "Cloud Scale",
-    "automatically_scale_your_applications": "Automatically scale your applications as your user base grows.",
-    "crafted_for_modern_teams": "Crafted for modern teams",
-    "modern_team_workspace": "Modern team workspace powered by Nexus",
-    "team_workspace": "Team Workspace",
-    "built_for_collaboration": "Built for collaboration",
-    "developers_collaborating": "Developers collaborating and building with the Nexus platform",
-    "developer_first": "Developer First",
-    "loved_by_engineers_worldwide": "Loved by engineers worldwide",
+    "admissions_open_2024": "Admissions Open 2024",
+    "shape_your_future": "Shape Your Future at India's Largest University",
+    "transforming_education": "Transforming Education Empowering Global Leaders",
+    "world_class_education": "Experience a world-class education at Lovely Professional University.",
+    "explore_programs": "Explore Programs",
+    "virtual_tour": "Virtual Tour",
+    "students": "Students",
+    "faculty": "Faculty",
+    "acre_campus": "Acre Campus",
+    "top_rankings": "Top Rankings",
+    "discover_your_passion": "Discover Your Passion",
+    "choose_from_200_programs": "Choose from 200+ programs across various disciplines, designed to meet the demands of the modern industry.",
+    "engineering": "Engineering",
+    "management": "Management",
+    "design": "Design",
+    "computer_science": "Computer Science",
+    "view_details": "View Details",
+    "why_choose_lpu": "Why Choose Lovely Professional University?",
+    "global_exposure": "Global Exposure",
+    "placement_excellence": "Placement Excellence",
+    "research_driven": "Research Driven",
+    "holistic_development": "Holistic Development",
+    "ready_to_start_your_journey": "Ready to start your journey?",
+    "join_thousands_of_students": "Join thousands of students from around the world and build a career you're proud of. Admissions are currently open for 2024-25.",
+    "apply_now": "Apply Now",
+    "download_brochure": "Download Brochure",
     "images": {
-      "hero_dashboard_image": {
+      "hero_campus_image": {
         "pattern": "direct",
-        "key": "hero_dashboard_image",
-        "originalSrc": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+        "key": "hero_campus_image",
+        "originalSrc": "https://images.unsplash.com/photo-1541339907198-e08756ebafe3?w=1200&q=80",
         "pendingSrc": null,
-        "alt": "Nexus analytics dashboard with real-time data visualization",
+        "alt": "LPU Hi-tech Campus Architecture",
         "pendingAlt": null,
         "width": 1200,
         "height": 675,
         "isNextImage": true,
         "sourceFile": "src/app/page.js"
       },
-      "modern_team_workspace_image": {
-        "pattern": "direct",
-        "key": "modern_team_workspace_image",
-        "originalSrc": "/CateringHome.jpg",
-        "pendingSrc": null,
-        "alt": "Modern team workspace powered by Nexus",
-        "pendingAlt": null,
-        "width": null,
-        "height": null,
-        "isNextImage": true,
-        "sourceFile": "src/app/page.js"
-      },
-      "developers_collaborating_image": {
-        "pattern": "direct",
-        "key": "developers_collaborating_image",
-        "originalSrc": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
-        "pendingSrc": null,
-        "alt": "Developers collaborating and building with the Nexus platform",
-        "pendingAlt": null,
-        "width": null,
-        "height": null,
-        "isNextImage": true,
-        "sourceFile": "src/app/page.js"
-      },
-      "features": {
+      "categories_images": {
         "pattern": "array",
-        "key": "features",
-        "arrayVar": "features",
+        "key": "categories_images",
+        "arrayVar": "categories",
         "sourceFile": "src/app/page.js",
         "items": [
           {
             "index": 0,
-            "originalSrc": null,
+            "originalSrc": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
             "pendingSrc": null,
-            "alt": "",
+            "alt": "Engineering",
             "pendingAlt": null
           },
           {
             "index": 1,
-            "originalSrc": null,
+            "originalSrc": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80",
             "pendingSrc": null,
-            "alt": "",
+            "alt": "Management",
             "pendingAlt": null
           },
           {
             "index": 2,
-            "originalSrc": null,
+            "originalSrc": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80",
             "pendingSrc": null,
-            "alt": "",
+            "alt": "Design",
+            "pendingAlt": null
+          },
+          {
+            "index": 3,
+            "originalSrc": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+            "pendingSrc": null,
+            "alt": "Computer Science",
             "pendingAlt": null
           }
         ]
+      },
+      "why_lpu_image": {
+        "pattern": "direct",
+        "key": "why_lpu_image",
+        "originalSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80",
+        "pendingSrc": null,
+        "alt": "Students collaborating at LPU",
+        "pendingAlt": null,
+        "width": null,
+        "height": null,
+        "isNextImage": true,
+        "sourceFile": "src/app/page.js"
+      },
+      "cta_image": {
+        "pattern": "direct",
+        "key": "cta_image",
+        "originalSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+        "pendingSrc": null,
+        "alt": "Students",
+        "pendingAlt": null,
+        "width": null,
+        "height": null,
+        "isNextImage": true,
+        "sourceFile": "src/app/page.js"
       }
     }
   },
   "navbar": {
-    "navbar_brand_name": "NEXUS",
-    "get_started_button_text": "Get Started",
-    "features_nav_link_text": "Features",
-    "solution_nav_link_text": "Solution",
-    "company_nav_link_text": "Company",
+    "navbar_university_name": "Lovely Professional University",
+    "navbar_academics": "Academics",
+    "navbar_admissions": "Admissions",
+    "navbar_research": "Research",
+    "navbar_campus_life": "Campus Life",
+    "navbar_about": "About",
     "images": {
-      "navbar_brand_logo": {
+      "lpu_logo": {
         "pattern": "direct",
-        "key": "navbar_brand_logo",
+        "key": "lpu_logo",
         "originalSrc": null,
         "pendingSrc": null,
         "alt": "",
         "pendingAlt": null,
-        "width": 8,
-        "height": 8,
+        "width": null,
+        "height": null,
         "isNextImage": false,
         "sourceFile": "src/components/Navbar.js"
       }
     }
   },
   "footer": {
-    "footer_copyright_text": "2026 Nexus Technologies Inc. All rights reserved.",
-    "twitter_link_text": "Twitter",
-    "github_link_text": "GitHub",
-    "discord_link_text": "Discord"
+    "footer_description": "India's largest university providing world-class education and transforming millions of lives through innovation and excellence.",
+    "footer_quick_links": "Quick Links",
+    "footer_about_us": "About Us",
+    "footer_contact": "Contact",
+    "footer_address": "Jalandhar - Delhi, G.T. Road, Phagwara, Punjab",
+    "footer_email": "admissions@lpu.co.in",
+    "footer_phone": "+91-1824-404404",
+    "footer_copyright": "2026 Lovely Professional University. All rights reserved.",
+    "footer_facebook": "Facebook",
+    "footer_instagram": "Instagram",
+    "footer_linkedin": "LinkedIn",
+    "footer_youtube": "YouTube"
   }
 }
