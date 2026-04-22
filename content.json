@@ -1,22 +1,22 @@
 {
   "home": {
-    "nexus_v2_0_is_now_live": "Nexus V2.0 is now live",
+    "nexus_v2_is_now_live": "Nexus V2.0 is now live",
     "elevate_your_digital_presence": "Elevate your digital presence",
-    "experience_the_future_of_innovation_with_nexus": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
+    "experience_the_future_of_innovation": "Experience the future of innovation with Nexus. Our cutting-edge platform empowers individuals and teams to build, scale, and thrive in the modern web.",
     "start_building_now": "Start Building Now",
     "view_documentation": "View Documentation",
-    "nexus_analytics_dashboard_with_real_time_data_visualization": "Nexus analytics dashboard with real-time data visualization",
+    "nexus_analytics_dashboard": "Nexus analytics dashboard with real-time data visualization",
     "lightning_fast": "Lightning Fast",
-    "built_on_top_of_the_latest_technologies_for_unmatched_performance": "Built on top of the latest technologies for unmatched performance.",
+    "built_on_top_of_the_latest_technologies": "Built on top of the latest technologies for unmatched performance",
     "secure_by_default": "Secure by Default",
-    "enterprise_grade_security_features_right_out_of_the_box": "Enterprise-grade security features right out of the box.",
+    "enterprise_grade_security_features": "Enterprise-grade security features right out of the box",
     "cloud_scale": "Cloud Scale",
-    "automatically_scale_your_applications_as_your_user_base_grows": "Automatically scale your applications as your user base grows.",
+    "automatically_scale_your_applications": "Automatically scale your applications as your user base grows",
     "crafted_for_modern_teams": "Crafted for modern teams",
-    "modern_team_workspace_powered_by_nexus": "Modern team workspace powered by Nexus",
+    "modern_team_workspace": "Modern team workspace powered by Nexus",
     "team_workspace": "Team Workspace",
     "built_for_collaboration": "Built for collaboration",
-    "developers_collaborating_and_building_with_the_nexus_platform": "Developers collaborating and building with the Nexus platform",
+    "developers_collaborating": "Developers collaborating and building with the Nexus platform",
     "developer_first": "Developer First",
     "loved_by_engineers_worldwide": "Loved by engineers worldwide",
     "images": {
@@ -56,31 +56,31 @@
         "isNextImage": true,
         "sourceFile": "src/app/page.js"
       },
-      "features": {
+      "feature_icons": {
         "pattern": "array",
-        "key": "features",
-        "arrayVar": "features",
+        "key": "feature_icons",
+        "arrayVar": "[ { title: \"Lightning Fast\", desc: \"Built on top of the latest technologies for unmatched performance.\", icon: ... }, ... ]",
         "sourceFile": "src/app/page.js",
         "items": [
           {
             "index": 0,
             "originalSrc": null,
             "pendingSrc": null,
-            "alt": null,
+            "alt": "",
             "pendingAlt": null
           },
           {
             "index": 1,
             "originalSrc": null,
             "pendingSrc": null,
-            "alt": null,
+            "alt": "",
             "pendingAlt": null
           },
           {
             "index": 2,
             "originalSrc": null,
             "pendingSrc": null,
-            "alt": null,
+            "alt": "",
             "pendingAlt": null
           }
         ]
@@ -88,30 +88,16 @@
     }
   },
   "navbar": {
-    "navbar_brand_name": "NEXUS",
-    "get_started_button_text": "Get Started",
-    "features_nav_link_text": "Features",
-    "solution_nav_link_text": "Solution",
-    "company_nav_link_text": "Company",
-    "images": {
-      "navbar_brand_logo": {
-        "pattern": "direct",
-        "key": "navbar_brand_logo",
-        "originalSrc": null,
-        "pendingSrc": null,
-        "alt": "",
-        "pendingAlt": null,
-        "width": 8,
-        "height": 8,
-        "isNextImage": false,
-        "sourceFile": "src/components/Navbar.js"
-      }
-    }
+    "navbar_nexus_text": "NEXUS",
+    "navbar_nav_link_features": "Features",
+    "navbar_nav_link_solution": "Solution",
+    "navbar_nav_link_company": "Company",
+    "navbar_get_started_button": "Get Started"
   },
   "footer": {
-    "footer_copyright_text": "2026 Nexus Technologies Inc. All rights reserved.",
-    "twitter_link_text": "Twitter",
-    "github_link_text": "GitHub",
-    "discord_link_text": "Discord"
+    "footer_copyright_text": "© 2026 Nexus Technologies Inc. All rights reserved.",
+    "footer_social_link_twitter": "Twitter",
+    "footer_social_link_github": "GitHub",
+    "footer_social_link_discord": "Discord"
   }
 }
