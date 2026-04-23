@@ -1,0 +1,64 @@
+{
+  "retrofitted_files": [
+    "src/app/about/page.js",
+    "src/app/academics/page.js",
+    "src/app/page.js",
+    "src/components/Navbar.js",
+    "src/components/Footer.js"
+  ],
+  "content_map": {
+    "src/app/about/page.js": [
+      "navbar.navbar_about",
+      "about.about_lpu_description",
+      "about.our_vision_header",
+      "about.our_vision_description",
+      "about.our_mission_header",
+      "about.our_mission_item1",
+      "about.our_mission_item2",
+      "about.our_mission_item3"
+    ],
+    "src/app/academics/page.js": [
+      "academics.academic_excellence_description",
+      "academics.school_programs_description",
+      "academics.industry_collaborations_heading",
+      "academics.industry_collaborations_description",
+      "academics.learn_about_partnerships_button"
+    ],
+    "src/app/page.js": [
+      "home.admissions_open_2024",
+      "home.shape_your_future",
+      "home.transforming_education",
+      "home.empowering_global_leaders",
+      "home.explore_programs",
+      "home.virtual_tour",
+      "home.discover_your_passion",
+      "home.choose_from_200_programs",
+      "home.view_details",
+      "home.ready_to_start_your_journey",
+      "home.join_thousands_of_students",
+      "home.apply_now",
+      "home.download_brochure",
+      "home.students"
+    ],
+    "src/components/Navbar.js": [
+      "navbar.navbar_university_name",
+      "home.apply_now"
+    ],
+    "src/components/Footer.js": [
+      "navbar.navbar_university_name",
+      "footer.footer_description",
+      "footer.footer_quick_links",
+      "footer.footer_about_us",
+      "navbar.navbar_academics",
+      "navbar.navbar_admissions",
+      "navbar.navbar_campus_life",
+      "footer.footer_contact",
+      "footer.footer_address",
+      "footer.footer_facebook",
+      "footer.footer_instagram",
+      "footer.footer_linkedin",
+      "footer.footer_youtube"
+    ]
+  },
+  "retrofit_timestamp": "2026-04-23T14:15:50.763Z"
+}

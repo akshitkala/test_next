@@ -10,7 +10,7 @@ export default function About() {
       <main className="relative pt-32 pb-20 md:pt-48 md:pb-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-20 text-center">
-            <h1 className="text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl mb-8">{content.navbar.navbar_about_link}<span className="text-gradient">LPU</span>
+            <h1 className="text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl mb-8">{content.navbar.navbar_about}<span className="text-gradient">LPU</span>
             </h1>
             <p className="mx-auto max-w-3xl text-lg text-muted-foreground md:text-xl">{content.about.about_lpu_description}</p>
           </div>
