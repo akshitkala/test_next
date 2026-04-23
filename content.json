@@ -29,76 +29,76 @@
     "download_brochure": "Download Brochure",
     "images": {
       "hero_campus_image": {
-        "pattern": "direct",
-        "key": "hero_campus_image",
-        "originalSrc": "https://images.unsplash.com/photo-1541339907198-e08756ebafe3?w=1200&q=80",
-        "pendingSrc": null,
         "alt": "LPU Hi-tech Campus Architecture",
-        "pendingAlt": null,
+        "key": "hero_campus_image",
         "width": 1200,
         "height": 675,
+        "pattern": "direct",
+        "pendingAlt": null,
+        "pendingSrc": null,
+        "sourceFile": "src/app/page.js",
         "isNextImage": true,
-        "sourceFile": "src/app/page.js"
+        "originalSrc": "https://images.unsplash.com/photo-1541339907198-e08756ebafe3?w=1200&q=80"
       },
       "categories": {
-        "pattern": "array",
         "key": "categories",
-        "arrayVar": "categories",
-        "sourceFile": "src/app/page.js",
         "items": [
           {
-            "index": 0,
-            "originalSrc": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
-            "pendingSrc": null,
             "alt": "Engineering",
-            "pendingAlt": null
+            "index": 0,
+            "pendingAlt": null,
+            "pendingSrc": null,
+            "originalSrc": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
           },
           {
-            "index": 1,
-            "originalSrc": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80",
-            "pendingSrc": null,
             "alt": "Management",
-            "pendingAlt": null
+            "index": 1,
+            "pendingAlt": null,
+            "pendingSrc": null,
+            "originalSrc": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
           },
           {
-            "index": 2,
-            "originalSrc": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80",
-            "pendingSrc": null,
             "alt": "Design",
-            "pendingAlt": null
+            "index": 2,
+            "pendingAlt": null,
+            "pendingSrc": null,
+            "originalSrc": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80"
           },
           {
-            "index": 3,
-            "originalSrc": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
-            "pendingSrc": null,
             "alt": "Computer Science",
-            "pendingAlt": null
+            "index": 3,
+            "pendingAlt": null,
+            "pendingSrc": null,
+            "originalSrc": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80"
           }
-        ]
+        ],
+        "pattern": "array",
+        "arrayVar": "categories",
+        "sourceFile": "src/app/page.js"
       },
       "why_lpu_image": {
-        "pattern": "direct",
-        "key": "why_lpu_image",
-        "originalSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80",
-        "pendingSrc": null,
         "alt": "Students collaborating at LPU",
-        "pendingAlt": null,
+        "key": "why_lpu_image",
         "width": null,
         "height": null,
+        "pattern": "direct",
+        "pendingAlt": null,
+        "pendingSrc": null,
+        "sourceFile": "src/app/page.js",
         "isNextImage": true,
-        "sourceFile": "src/app/page.js"
+        "originalSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80"
       },
       "cta_image": {
-        "pattern": "direct",
-        "key": "cta_image",
-        "originalSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
-        "pendingSrc": null,
         "alt": "Students",
-        "pendingAlt": null,
+        "key": "cta_image",
         "width": null,
         "height": null,
+        "pattern": "direct",
+        "pendingAlt": null,
+        "pendingSrc": null,
+        "sourceFile": "src/app/page.js",
         "isNextImage": true,
-        "sourceFile": "src/app/page.js"
+        "originalSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80"
       }
     }
   },
@@ -111,16 +111,16 @@
     "navbar_about_link": "About",
     "images": {
       "lpu_logo": {
-        "pattern": "direct",
-        "key": "lpu_logo",
-        "originalSrc": null,
-        "pendingSrc": null,
         "alt": "",
-        "pendingAlt": null,
+        "key": "lpu_logo",
         "width": null,
         "height": null,
+        "pattern": "direct",
+        "pendingAlt": null,
+        "pendingSrc": null,
+        "sourceFile": "src/components/Navbar.js",
         "isNextImage": false,
-        "sourceFile": "src/components/Navbar.js"
+        "originalSrc": null
       }
     }
   },
