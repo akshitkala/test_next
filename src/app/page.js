@@ -44,11 +44,10 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 inline-flex animate-float items-center rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm font-medium text-accent">
-              <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">{content.home.admissions_open_2024}</span>{content.home.shape_your_future_at_indias_largest_university}</div>
+              <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">{content.home.admissions_open_2024}</span>{content.home.shape_your_future}</div>
             
-            <h1 className="mb-8 max-w-5xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl leading-tight">
-              Transforming Education <br />
-              <span className="text-gradient">Empowering Global Leaders</span>
+            <h1 className="mb-8 max-w-5xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl leading-tight">{content.home.transforming_education}<br />
+              <span className="text-gradient">{content.home.empowering_global_leaders}</span>
             </h1>
             
             <p className="mb-12 max-w-3xl text-lg text-muted-foreground md:text-xl leading-relaxed">
@@ -91,7 +90,7 @@ export default function Home() {
             <div className="mt-40 w-full">
               <div className="flex flex-col items-center mb-16">
                 <h2 className="text-4xl font-bold mb-4">{content.home.discover_your_passion}</h2>
-                <p className="text-muted-foreground text-center max-w-2xl">Choose from 200+ programs across various disciplines, designed to meet the demands of the modern industry.</p>
+                <p className="text-muted-foreground text-center max-w-2xl">{content.home.choose_from_200_programs}</p>
               </div>
               <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                 {categories.map((cat, i) => <div key={i} className="group relative h-[400px] rounded-3xl overflow-hidden border border-white/10 cursor-pointer">
@@ -99,9 +98,7 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent transition-opacity group-hover:opacity-90" />
                     <div className="absolute bottom-8 left-8 right-8 text-left">
                       <h4 className="text-2xl font-bold text-white mb-4">{cat.title}</h4>
-                      <button className="flex items-center gap-2 text-sm font-semibold text-accent opacity-0 translate-y-4 transition-all group-hover:opacity-100 group-hover:translate-y-0">
-                        View Details
-                        <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <button className="flex items-center gap-2 text-sm font-semibold text-accent opacity-0 translate-y-4 transition-all group-hover:opacity-100 group-hover:translate-y-0">{content.home.view_details}<svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
                       </button>
@@ -151,7 +148,7 @@ export default function Home() {
                <div className="relative p-12 md:p-20 rounded-[3rem] border border-white/10 bg-white/5 overflow-hidden">
                   <div className="max-w-2xl">
                      <h2 className="text-4xl md:text-5xl font-bold mb-6">{content.home.ready_to_start_your_journey}</h2>
-                     <p className="text-xl text-muted-foreground mb-10">Join thousands of students from around the world and build a career you're proud of. Admissions are currently open for 2024-25.</p>
+                     <p className="text-xl text-muted-foreground mb-10">{content.home.join_thousands_of_students}</p>
                      <div className="flex flex-col sm:flex-row gap-4">
                         <button className="h-14 px-10 rounded-full bg-accent text-white font-bold hover:shadow-[0_0_30px_rgba(245,130,32,0.5)] transition-all">{content.home.apply_now}</button>
                         <button className="h-14 px-10 rounded-full border border-white/20 bg-transparent font-bold hover:bg-white/5 transition-all">{content.home.download_brochure}</button>
