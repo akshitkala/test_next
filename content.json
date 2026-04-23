@@ -97,7 +97,7 @@
         "pattern": "direct",
         "key": "lpu_main_building_image",
         "originalSrc": "https://images.unsplash.com/photo-1498243639359-2818a74e2027?w=800&q=80",
-        "pendingSrc": null,
+        "pendingSrc": "/panelify-images/weddinghero.webp",
         "alt": "LPU Main Building",
         "pendingAlt": null,
         "width": null,
