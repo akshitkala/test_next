@@ -1,29 +1,10 @@
 {
   "retrofitted_files": [
-    "src/app/about/page.js",
-    "src/app/academics/page.js",
     "src/app/page.js",
     "src/components/Navbar.js",
     "src/components/Footer.js"
   ],
   "content_map": {
-    "src/app/about/page.js": [
-      "navbar.navbar_about",
-      "about.about_lpu_description",
-      "about.our_vision_header",
-      "about.our_vision_description",
-      "about.our_mission_header",
-      "about.our_mission_item1",
-      "about.our_mission_item2",
-      "about.our_mission_item3"
-    ],
-    "src/app/academics/page.js": [
-      "academics.academic_excellence_description",
-      "academics.school_programs_description",
-      "academics.industry_collaborations_heading",
-      "academics.industry_collaborations_description",
-      "academics.learn_about_partnerships_button"
-    ],
     "src/app/page.js": [
       "home.admissions_open_2024",
       "home.shape_your_future",
@@ -46,20 +27,20 @@
     ],
     "src/components/Footer.js": [
       "navbar.navbar_university_name",
-      "footer.footer_description",
-      "footer.footer_quick_links",
-      "footer.footer_about_us",
-      "navbar.navbar_academics",
-      "navbar.navbar_admissions",
-      "navbar.navbar_campus_life",
-      "footer.footer_contact",
+      "footer.footer_university_description",
+      "footer.footer_quick_links_title",
+      "footer.footer_about_us_link",
+      "navbar.navbar_academics_link",
+      "navbar.navbar_admissions_link",
+      "navbar.navbar_campus_life_link",
+      "footer.footer_contact_title",
       "footer.footer_address",
-      "footer.footer_facebook",
-      "footer.footer_instagram",
-      "footer.footer_linkedin",
-      "footer.footer_youtube"
+      "footer.footer_facebook_link",
+      "footer.footer_instagram_link",
+      "footer.footer_linkedin_link",
+      "footer.footer_youtube_link"
     ]
   },
-  "retrofit_timestamp": "2026-04-23T14:15:50.763Z",
-  "last_published": "2026-04-23T14:17:36.389Z"
+  "retrofit_timestamp": "2026-04-23T17:49:55.880Z",
+  "last_published": null
 }

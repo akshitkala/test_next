@@ -9,19 +9,19 @@ export default function Footer() {
                 <div className="h-6 w-6 rounded bg-gradient-primary transition-transform group-hover:scale-110 flex items-center justify-center text-[8px] text-white font-bold">LPU</div>
                 <span className="text-xl font-bold tracking-tighter uppercase">{content.navbar.navbar_university_name}</span>
               </Link>
-              <p className="text-muted-foreground max-w-sm">{content.footer.footer_description}</p>
+              <p className="text-muted-foreground max-w-sm">{content.footer.footer_university_description}</p>
            </div>
            <div>
-              <h4 className="font-bold mb-6">{content.footer.footer_quick_links}</h4>
+              <h4 className="font-bold mb-6">{content.footer.footer_quick_links_title}</h4>
               <ul className="space-y-4 text-sm text-muted-foreground">
-                 <li><Link href="/about" className="hover:text-accent">{content.footer.footer_about_us}</Link></li>
-                 <li><Link href="/academics" className="hover:text-accent">{content.navbar.navbar_academics}</Link></li>
-                 <li><Link href="/admissions" className="hover:text-accent">{content.navbar.navbar_admissions}</Link></li>
-                 <li><Link href="/campus-life" className="hover:text-accent">{content.navbar.navbar_campus_life}</Link></li>
+                 <li><Link href="/about" className="hover:text-accent">{content.footer.footer_about_us_link}</Link></li>
+                 <li><Link href="/academics" className="hover:text-accent">{content.navbar.navbar_academics_link}</Link></li>
+                 <li><Link href="/admissions" className="hover:text-accent">{content.navbar.navbar_admissions_link}</Link></li>
+                 <li><Link href="/campus-life" className="hover:text-accent">{content.navbar.navbar_campus_life_link}</Link></li>
               </ul>
            </div>
            <div>
-              <h4 className="font-bold mb-6">{content.footer.footer_contact}</h4>
+              <h4 className="font-bold mb-6">{content.footer.footer_contact_title}</h4>
               <ul className="space-y-4 text-sm text-muted-foreground">
                  <li>{content.footer.footer_address}</li>
                  <li>Email: admissions@lpu.co.in</li>
@@ -34,10 +34,10 @@ export default function Footer() {
             © 2026 Lovely Professional University. All rights reserved.
           </p>
           <div className="flex gap-6 text-muted-foreground text-sm font-medium">
-            <a href="#" className="hover:text-accent transition-colors">{content.footer.footer_facebook}</a>
-            <a href="#" className="hover:text-accent transition-colors">{content.footer.footer_instagram}</a>
-            <a href="#" className="hover:text-accent transition-colors">{content.footer.footer_linkedin}</a>
-            <a href="#" className="hover:text-accent transition-colors">{content.footer.footer_youtube}</a>
+            <a href="#" className="hover:text-accent transition-colors">{content.footer.footer_facebook_link}</a>
+            <a href="#" className="hover:text-accent transition-colors">{content.footer.footer_instagram_link}</a>
+            <a href="#" className="hover:text-accent transition-colors">{content.footer.footer_linkedin_link}</a>
+            <a href="#" className="hover:text-accent transition-colors">{content.footer.footer_youtube_link}</a>
           </div>
         </div>
       </div>

@@ -1,37 +1,10 @@
 {
-  "about": {
-    "about_lpu_header": "About LPU",
-    "about_lpu_description": "Lovely Professional University ",
-    "our_vision_header": "Our Vision",
-    "our_vision_description": "To be a premier academic institution, recognized internationally for its contribution to industry and society through excellence in teaching, learning, research, internationalization, entrepreneurship, and leadership.",
-    "our_mission_header": "Our Mission",
-    "our_mission_item1": "To provide affordable quality education while maintaining high standards.",
-    "our_mission_item2": "To nurture innovation and research-driven learning environment.",
-    "our_mission_item3": "To develop holistic individuals capable of leading in a globalized world."
-  },
-  "academics": {
-    "academic_excellence_heading": "Academic Excellence",
-    "academic_excellence_description": "LPU offers a wide range of industry-vetted programs designed to make you future-ready. Our curriculum is constantly updated with inputs from industry leaders.",
-    "school_of_computer_science_name": "School of Computer Science",
-    "school_of_management_name": "School of Management",
-    "school_of_engineering_name": "School of Engineering",
-    "school_of_fashion_design_name": "School of Fashion Design",
-    "school_of_architecture_name": "School of Architecture",
-    "school_of_law_name": "School of Law",
-    "school_of_agriculture_name": "School of Agriculture",
-    "school_of_bio_engineering_name": "School of Bio-Engineering",
-    "school_programs_description": "Comprehensive programs with hands-on learning and industry projects.",
-    "industry_collaborations_heading": "Industry Collaborations",
-    "industry_collaborations_description": "We have partnered with top global brands like Google, Microsoft, SAP, and AWS to provide specialized courses and certifications that give our students an edge in the job market.",
-    "learn_about_partnerships_button": "Learn about partnerships"
-  },
   "home": {
     "admissions_open_2024": "Admissions Open 2024",
     "shape_your_future": "Shape Your Future at India's Largest University",
     "transforming_education": "Transforming Education",
     "empowering_global_leaders": "Empowering Global Leaders",
     "world_class_education": "Experience a world-class education at Lovely Professional University.",
-    "hi_tech_campus": "With a 600-acre hi-tech campus, industry-aligned curriculum, and unmatched placement records, we prepare you for the global stage.",
     "explore_programs": "Explore Programs",
     "virtual_tour": "Virtual Tour",
     "students": "Students",
@@ -53,108 +26,8 @@
     "ready_to_start_your_journey": "Ready to start your journey?",
     "join_thousands_of_students": "Join thousands of students from around the world and build a career you're proud of. Admissions are currently open for 2024-25.",
     "apply_now": "Apply Now",
-    "download_brochure": "Download Brochure"
-  },
-  "navbar": {
-    "navbar_university_name": "Lovely Professional University",
-    "navbar_academics": "Academics",
-    "navbar_admissions": "Admissions",
-    "navbar_research": "Research",
-    "navbar_campus_life": "Campus Life",
-    "navbar_about": "About",
+    "download_brochure": "Download Brochure",
     "images": {
-      "lpu_logo": {
-        "pattern": "direct",
-        "key": "lpu_logo",
-        "originalSrc": null,
-        "pendingSrc": null,
-        "alt": "",
-        "pendingAlt": null,
-        "width": null,
-        "height": null,
-        "isNextImage": false,
-        "sourceFile": "src/components/Navbar.js"
-      }
-    }
-  },
-  "footer": {
-    "footer_description": "India's largest university providing world-class education and transforming millions of lives through innovation and excellence.",
-    "footer_quick_links": "Quick Links",
-    "footer_about_us": "About Us",
-    "footer_contact": "Contact",
-    "footer_address": "Jalandhar - Delhi, G.T. Road, Phagwara, Punjab",
-    "footer_email": "admissions@lpu.co.in",
-    "footer_phone": "+91-1824-404404",
-    "footer_copyright": "2026 Lovely Professional University. All rights reserved.",
-    "footer_facebook": "Facebook",
-    "footer_instagram": "Instagram",
-    "footer_linkedin": "LinkedIn",
-    "footer_youtube": "YouTube"
-  },
-  "page": {
-    "images": {
-      "lpu_main_building_image": {
-        "pattern": "direct",
-        "key": "lpu_main_building_image",
-        "originalSrc": "https://images.unsplash.com/photo-1498243639359-2818a74e2027?w=800&q=80",
-        "pendingSrc": "/panelify-images/weddinghero.webp",
-        "alt": "LPU Main Building",
-        "pendingAlt": null,
-        "width": null,
-        "height": null,
-        "isNextImage": true,
-        "sourceFile": "src/app/about/page.js"
-      },
-      "dummy_logos": {
-        "pattern": "array",
-        "key": "dummy_logos",
-        "arrayVar": "[1,2,3,4,5,6]",
-        "sourceFile": "src/app/academics/page.js",
-        "items": [
-          {
-            "index": 0,
-            "originalSrc": null,
-            "pendingSrc": null,
-            "alt": "",
-            "pendingAlt": null
-          },
-          {
-            "index": 1,
-            "originalSrc": null,
-            "pendingSrc": null,
-            "alt": "",
-            "pendingAlt": null
-          },
-          {
-            "index": 2,
-            "originalSrc": null,
-            "pendingSrc": null,
-            "alt": "",
-            "pendingAlt": null
-          },
-          {
-            "index": 3,
-            "originalSrc": null,
-            "pendingSrc": null,
-            "alt": "",
-            "pendingAlt": null
-          },
-          {
-            "index": 4,
-            "originalSrc": null,
-            "pendingSrc": null,
-            "alt": "",
-            "pendingAlt": null
-          },
-          {
-            "index": 5,
-            "originalSrc": null,
-            "pendingSrc": null,
-            "alt": "",
-            "pendingAlt": null
-          }
-        ]
-      },
       "hero_campus_image": {
         "pattern": "direct",
         "key": "hero_campus_image",
@@ -228,5 +101,27 @@
         "sourceFile": "src/app/page.js"
       }
     }
+  },
+  "navbar": {
+    "navbar_university_name": "Lovely Professional University",
+    "navbar_academics_link": "Academics",
+    "navbar_admissions_link": "Admissions",
+    "navbar_research_link": "Research",
+    "navbar_campus_life_link": "Campus Life",
+    "navbar_about_link": "About"
+  },
+  "footer": {
+    "footer_university_description": "India's largest university providing world-class education and transforming millions of lives through innovation and excellence.",
+    "footer_quick_links_title": "Quick Links",
+    "footer_about_us_link": "About Us",
+    "footer_contact_title": "Contact",
+    "footer_address": "Jalandhar - Delhi, G.T. Road, Phagwara, Punjab",
+    "footer_email": "admissions@lpu.co.in",
+    "footer_phone": "+91-1824-404404",
+    "footer_copyright": "2026 Lovely Professional University. All rights reserved.",
+    "footer_facebook_link": "Facebook",
+    "footer_instagram_link": "Instagram",
+    "footer_linkedin_link": "LinkedIn",
+    "footer_youtube_link": "YouTube"
   }
 }
