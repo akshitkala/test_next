@@ -45,7 +45,7 @@ export default function Academics() {
             {schools.map((school, i) => <div key={i} className="group p-8 rounded-3xl border border-white/5 bg-white/5 hover:bg-white/10 transition-all hover:-translate-y-2 cursor-pointer">
                 <div className="text-4xl mb-6 group-hover:scale-125 transition-transform">{school.icon}</div>
                 <h3 className="text-xl font-bold">{school.name}</h3>
-                <p className="mt-4 text-sm text-muted-foreground">{content.academics.comprehensive_programs_description}</p>
+                <p className="mt-4 text-sm text-muted-foreground">{content.academics.school_programs_description}</p>
               </div>)}
           </div>
 
