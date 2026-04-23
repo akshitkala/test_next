@@ -1,10 +1,9 @@
 {
   "home": {
     "admissions_open_2024": "Admissions Open 2024",
-    "shape_your_future": "Shape Your Future at India's Largest University",
-    "transforming_education": "Transforming Education",
-    "empowering_global_leaders": "Empowering Global Leaders",
-    "world_class_education": "Experience a world-class education at Lovely Professional University.",
+    "shape_your_future_at_indias_largest_university": "Shape Your Future at India's Largest University",
+    "transforming_education_empowering_global_leaders": "Transforming Education Empowering Global Leaders",
+    "experience_a_world_class_education_at_lovely_professional_university": "Experience a world-class education at Lovely Professional University",
     "explore_programs": "Explore Programs",
     "virtual_tour": "Virtual Tour",
     "students": "Students",
@@ -12,93 +11,94 @@
     "acre_campus": "Acre Campus",
     "top_rankings": "Top Rankings",
     "discover_your_passion": "Discover Your Passion",
-    "choose_from_200_programs": "Choose from 200+ programs across various disciplines, designed to meet the demands of the modern industry.",
+    "choose_from_200_programs_across_various_disciplines": "Choose from 200+ programs across various disciplines",
     "engineering": "Engineering",
     "management": "Management",
     "design": "Design",
     "computer_science": "Computer Science",
     "view_details": "View Details",
-    "why_choose_lpu": "Why Choose Lovely Professional University?",
+    "why_choose_lovely_professional_university": "Why Choose Lovely Professional University?",
     "global_exposure": "Global Exposure",
     "placement_excellence": "Placement Excellence",
     "research_driven": "Research Driven",
     "holistic_development": "Holistic Development",
     "ready_to_start_your_journey": "Ready to start your journey?",
-    "join_thousands_of_students": "Join thousands of students from around the world and build a career you're proud of. Admissions are currently open for 2024-25.",
+    "join_thousands_of_students_from_around_the_world_and_build_a_career_youre_proud_of": "Join thousands of students from around the world and build a career you're proud of",
+    "admissions_are_currently_open_for_2024_25": "Admissions are currently open for 2024-25",
     "apply_now": "Apply Now",
     "download_brochure": "Download Brochure",
     "images": {
       "hero_campus_image": {
-        "alt": "LPU Hi-tech Campus Architecture",
+        "pattern": "direct",
         "key": "hero_campus_image",
+        "originalSrc": "https://images.unsplash.com/photo-1541339907198-e08756ebafe3?w=1200&q=80",
+        "pendingSrc": null,
+        "alt": "LPU Hi-tech Campus Architecture",
+        "pendingAlt": null,
         "width": 1200,
         "height": 675,
-        "pattern": "direct",
-        "pendingAlt": null,
-        "pendingSrc": null,
-        "sourceFile": "src/app/page.js",
         "isNextImage": true,
-        "originalSrc": "https://images.unsplash.com/photo-1541339907198-e08756ebafe3?w=1200&q=80"
-      },
-      "categories_images": {
-        "key": "categories_images",
-        "items": [
-          {
-            "alt": "Engineering",
-            "index": 0,
-            "pendingAlt": null,
-            "pendingSrc": null,
-            "originalSrc": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
-          },
-          {
-            "alt": "Management",
-            "index": 1,
-            "pendingAlt": null,
-            "pendingSrc": null,
-            "originalSrc": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
-          },
-          {
-            "alt": "Design",
-            "index": 2,
-            "pendingAlt": null,
-            "pendingSrc": null,
-            "originalSrc": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80"
-          },
-          {
-            "alt": "Computer Science",
-            "index": 3,
-            "pendingAlt": null,
-            "pendingSrc": null,
-            "originalSrc": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80"
-          }
-        ],
-        "pattern": "array",
-        "arrayVar": "categories",
         "sourceFile": "src/app/page.js"
       },
+      "categories": {
+        "pattern": "array",
+        "key": "categories",
+        "arrayVar": "categories",
+        "sourceFile": "src/app/page.js",
+        "items": [
+          {
+            "index": 0,
+            "originalSrc": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+            "pendingSrc": null,
+            "alt": "Engineering",
+            "pendingAlt": null
+          },
+          {
+            "index": 1,
+            "originalSrc": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80",
+            "pendingSrc": null,
+            "alt": "Management",
+            "pendingAlt": null
+          },
+          {
+            "index": 2,
+            "originalSrc": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80",
+            "pendingSrc": null,
+            "alt": "Design",
+            "pendingAlt": null
+          },
+          {
+            "index": 3,
+            "originalSrc": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+            "pendingSrc": null,
+            "alt": "Computer Science",
+            "pendingAlt": null
+          }
+        ]
+      },
       "why_lpu_image": {
-        "alt": "Students collaborating at LPU",
+        "pattern": "direct",
         "key": "why_lpu_image",
+        "originalSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80",
+        "pendingSrc": null,
+        "alt": "Students collaborating at LPU",
+        "pendingAlt": null,
         "width": null,
         "height": null,
-        "pattern": "direct",
-        "pendingAlt": null,
-        "pendingSrc": null,
-        "sourceFile": "src/app/page.js",
         "isNextImage": true,
-        "originalSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80"
+        "sourceFile": "src/app/page.js"
       },
       "cta_image": {
-        "alt": "Students",
+        "pattern": "direct",
         "key": "cta_image",
+        "originalSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+        "pendingSrc": null,
+        "alt": "Students",
+        "pendingAlt": null,
         "width": null,
         "height": null,
-        "pattern": "direct",
-        "pendingAlt": null,
-        "pendingSrc": null,
-        "sourceFile": "src/app/page.js",
         "isNextImage": true,
-        "originalSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80"
+        "sourceFile": "src/app/page.js"
       }
     }
   },
@@ -108,7 +108,21 @@
     "navbar_admissions_link": "Admissions",
     "navbar_research_link": "Research",
     "navbar_campus_life_link": "Campus Life",
-    "navbar_about_link": "About"
+    "navbar_about_link": "About",
+    "images": {
+      "lpu_logo": {
+        "pattern": "direct",
+        "key": "lpu_logo",
+        "originalSrc": null,
+        "pendingSrc": null,
+        "alt": "",
+        "pendingAlt": null,
+        "width": null,
+        "height": null,
+        "isNextImage": false,
+        "sourceFile": "src/components/Navbar.js"
+      }
+    }
   },
   "footer": {
     "footer_university_description": "India's largest university providing world-class education and transforming millions of lives through innovation and excellence.",

@@ -7,16 +7,12 @@
   "content_map": {
     "src/app/page.js": [
       "home.admissions_open_2024",
-      "home.shape_your_future",
-      "home.transforming_education",
-      "home.empowering_global_leaders",
+      "home.shape_your_future_at_indias_largest_university",
       "home.explore_programs",
       "home.virtual_tour",
       "home.discover_your_passion",
-      "home.choose_from_200_programs",
       "home.view_details",
       "home.ready_to_start_your_journey",
-      "home.join_thousands_of_students",
       "home.apply_now",
       "home.download_brochure",
       "home.students"
@@ -41,6 +37,6 @@
       "footer.footer_youtube_link"
     ]
   },
-  "retrofit_timestamp": "2026-04-23T17:50:43.234Z",
+  "retrofit_timestamp": "2026-04-23T18:03:19.335Z",
   "last_published": null
 }
