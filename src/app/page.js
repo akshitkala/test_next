@@ -98,7 +98,9 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent transition-opacity group-hover:opacity-90" />
                     <div className="absolute bottom-8 left-8 right-8 text-left">
                       <h4 className="text-2xl font-bold text-white mb-4">{cat.title}</h4>
-                      <button className="flex items-center gap-2 text-sm font-semibold text-accent opacity-0 translate-y-4 transition-all group-hover:opacity-100 group-hover:translate-y-0">{content.home.view_details}<svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <button className="flex items-center gap-2 text-sm font-semibold text-accent opacity-0 translate-y-4 transition-all group-hover:opacity-100 group-hover:translate-y-0">
+                        View Details
+                        <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
                       </button>
@@ -155,7 +157,7 @@ export default function Home() {
                      </div>
                   </div>
                   <div className="hidden lg:block absolute top-0 right-0 w-1/3 h-full grayscale opacity-20 pointer-events-none">
-                     <Image src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80" alt={content.home.students} fill className="object-cover" />
+                     <Image src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80" alt="Students" fill className="object-cover" />
                   </div>
                </div>
             </div>

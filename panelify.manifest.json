@@ -14,12 +14,10 @@
       "home.virtual_tour",
       "home.discover_your_passion",
       "home.choose_from_200_programs",
-      "home.view_details",
       "home.ready_to_start_your_journey",
       "home.join_thousands_of_students",
       "home.apply_now",
-      "home.download_brochure",
-      "home.students"
+      "home.download_brochure"
     ],
     "src/components/Navbar.js": [
       "navbar.navbar_university_name",
@@ -27,20 +25,18 @@
     ],
     "src/components/Footer.js": [
       "navbar.navbar_university_name",
-      "footer.footer_university_description",
-      "footer.footer_quick_links_title",
-      "footer.footer_about_us_link",
-      "navbar.navbar_academics_link",
-      "navbar.navbar_admissions_link",
-      "navbar.navbar_campus_life_link",
-      "footer.footer_contact_title",
-      "footer.footer_address",
-      "footer.footer_facebook_link",
-      "footer.footer_instagram_link",
-      "footer.footer_linkedin_link",
-      "footer.footer_youtube_link"
+      "footer.footer_description",
+      "footer.footer_quick_links_about",
+      "navbar.navbar_academics",
+      "navbar.navbar_admissions",
+      "navbar.navbar_campus_life",
+      "footer.footer_contact_address",
+      "footer.footer_facebook",
+      "footer.footer_instagram",
+      "footer.footer_linkedin",
+      "footer.footer_youtube"
     ]
   },
-  "retrofit_timestamp": "2026-04-23T18:26:22.479Z",
+  "retrofit_timestamp": "2026-04-24T10:10:03.670Z",
   "last_published": null
 }
