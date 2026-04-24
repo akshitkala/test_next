@@ -1,10 +1,15 @@
 {
   "retrofitted_files": [
+    "src/app/about/page.js",
     "src/app/page.js",
     "src/components/Navbar.js",
     "src/components/Footer.js"
   ],
   "content_map": {
+    "src/app/about/page.js": [
+      "navbar.navbar_about",
+      "navbar.navbar_university_name"
+    ],
     "src/app/page.js": [
       "home.admissions_open_2024",
       "home.shape_your_future",
@@ -37,6 +42,6 @@
       "footer.footer_youtube"
     ]
   },
-  "retrofit_timestamp": "2026-04-24T12:40:34.570Z",
+  "retrofit_timestamp": "2026-04-24T12:47:55.634Z",
   "last_published": null
 }

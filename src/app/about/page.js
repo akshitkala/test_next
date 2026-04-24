@@ -12,22 +12,22 @@ export default function About() {
           <div className="mb-20 text-center">
             <h1 className="text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl mb-8">{content.navbar.navbar_about}<span className="text-gradient">LPU</span>
             </h1>
-            <p className="mx-auto max-w-3xl text-lg text-muted-foreground md:text-xl">{content.about.about_lpu_description}</p>
+            <p className="mx-auto max-w-3xl text-lg text-muted-foreground md:text-xl">{content.navbar.navbar_university_name}</p>
           </div>
 
           <div className="grid gap-16 lg:grid-cols-2">
             <div className="space-y-8">
-              <h2 className="text-3xl font-bold">{content.about.our_vision_header}</h2>
-              <p className="text-muted-foreground leading-relaxed">{content.about.our_vision_description}</p>
+              <h2 className="text-3xl font-bold">Our Vision</h2>
+              <p className="text-muted-foreground leading-relaxed">To be a premier academic institution, recognized internationally for its contribution to industry and society through excellence in teaching, learning, research, internationalization, entrepreneurship, and leadership.</p>
               
-              <h2 className="text-3xl font-bold pt-8">{content.about.our_mission_header}</h2>
+              <h2 className="text-3xl font-bold pt-8">Our Mission</h2>
               <ul className="space-y-4 text-muted-foreground">
                 <li className="flex gap-4">
-                  <div className="h-6 w-6 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 text-accent font-bold">✓</div>{content.about.our_mission_item1}</li>
+                  <div className="h-6 w-6 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 text-accent font-bold">✓</div>To provide affordable quality education while maintaining high standards.</li>
                 <li className="flex gap-4">
-                  <div className="h-6 w-6 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 text-accent font-bold">✓</div>{content.about.our_mission_item2}</li>
+                  <div className="h-6 w-6 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 text-accent font-bold">✓</div>To nurture innovation and research-driven learning environment.</li>
                 <li className="flex gap-4">
-                  <div className="h-6 w-6 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 text-accent font-bold">✓</div>{content.about.our_mission_item3}</li>
+                  <div className="h-6 w-6 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 text-accent font-bold">✓</div>To develop holistic individuals capable of leading in a globalized world.</li>
               </ul>
             </div>
 
