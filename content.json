@@ -7,8 +7,17 @@
     "world_class_education": "Experience a world-class education at Lovely Professional University.",
     "explore_programs": "Explore Programs",
     "virtual_tour": "Virtual Tour",
+    "students": "Students",
+    "faculty": "Faculty",
+    "acre_campus": "Acre Campus",
+    "top_rankings": "Top Rankings",
     "discover_your_passion": "Discover Your Passion",
     "choose_from_200_programs": "Choose from 200+ programs across various disciplines, designed to meet the demands of the modern industry.",
+    "engineering": "Engineering",
+    "management": "Management",
+    "design": "Design",
+    "computer_science": "Computer Science",
+    "view_details": "View Details",
     "why_choose_lpu": "Why Choose Lovely Professional University?",
     "global_exposure": "Global Exposure",
     "placement_excellence": "Placement Excellence",
@@ -17,7 +26,32 @@
     "ready_to_start_your_journey": "Ready to start your journey?",
     "join_thousands_of_students": "Join thousands of students from around the world and build a career you're proud of. Admissions are currently open for 2024-25.",
     "apply_now": "Apply Now",
-    "download_brochure": "Download Brochure",
+    "download_brochure": "Download Brochure"
+  },
+  "navbar": {
+    "navbar_lpu_logo_text": "LPU",
+    "navbar_university_name": "Lovely Professional University",
+    "navbar_nav_link_academics": "Academics",
+    "navbar_nav_link_admissions": "Admissions",
+    "navbar_nav_link_research": "Research",
+    "navbar_nav_link_campus_life": "Campus Life",
+    "navbar_nav_link_about": "About"
+  },
+  "footer": {
+    "footer_description": "India's largest university providing world-class education and transforming millions of lives through innovation and excellence.",
+    "footer_quick_links_heading": "Quick Links",
+    "footer_quick_link_about_us": "About Us",
+    "footer_contact_heading": "Contact",
+    "footer_contact_address": "Jalandhar - Delhi, G.T. Road, Phagwara, Punjab",
+    "footer_contact_email": "Email: admissions@lpu.co.in",
+    "footer_contact_phone": "Phone: +91-1824-404404",
+    "footer_copyright": "© 2026 Lovely Professional University. All rights reserved.",
+    "footer_social_link_facebook": "Facebook",
+    "footer_social_link_instagram": "Instagram",
+    "footer_social_link_linkedin": "LinkedIn",
+    "footer_social_link_youtube": "YouTube"
+  },
+  "page": {
     "images": {
       "hero_campus_image": {
         "pattern": "direct",
@@ -92,41 +126,5 @@
         "sourceFile": "src/app/page.js"
       }
     }
-  },
-  "navbar": {
-    "navbar_university_name": "Lovely Professional University",
-    "navbar_academics_link": "Academics",
-    "navbar_admissions_link": "Admissions",
-    "navbar_research_link": "Research",
-    "navbar_campus_life_link": "Campus Life",
-    "navbar_about_link": "About",
-    "images": {
-      "lpu_logo": {
-        "pattern": "direct",
-        "key": "lpu_logo",
-        "originalSrc": null,
-        "pendingSrc": null,
-        "alt": "",
-        "pendingAlt": null,
-        "width": null,
-        "height": null,
-        "isNextImage": false,
-        "sourceFile": "src/components/Navbar.js"
-      }
-    }
-  },
-  "footer": {
-    "footer_university_description": "India's largest university providing world-class education and transforming millions of lives through innovation and excellence.",
-    "footer_quick_links_title": "Quick Links",
-    "footer_about_us_link": "About Us",
-    "footer_contact_title": "Contact",
-    "footer_address": "Jalandhar - Delhi, G.T. Road, Phagwara, Punjab",
-    "footer_email": "admissions@lpu.co.in",
-    "footer_phone": "+91-1824-404404",
-    "footer_copyright": "2026 Lovely Professional University. All rights reserved.",
-    "footer_facebook_link": "Facebook",
-    "footer_instagram_link": "Instagram",
-    "footer_linkedin_link": "LinkedIn",
-    "footer_youtube_link": "YouTube"
   }
 }

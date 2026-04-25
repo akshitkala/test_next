@@ -25,7 +25,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-2 group">
           <div className="h-8 w-8 rounded-lg bg-gradient-primary transition-transform group-hover:scale-110 flex items-center justify-center">
-             <span className="text-[10px] font-black text-white">LPU</span>
+             <span className="text-[10px] font-black text-white">{content.navbar.navbar_lpu_logo_text}</span>
           </div>
           <span className="text-xl font-bold tracking-tighter uppercase">{content.navbar.navbar_university_name}</span>
         </Link>
