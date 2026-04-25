@@ -20,111 +20,113 @@
     "download_brochure": "Download Brochure",
     "images": {
       "hero_campus_image": {
-        "alt": "LPU Hi-tech Campus Architecture",
+        "pattern": "direct",
         "key": "hero_campus_image",
+        "originalSrc": "https://images.unsplash.com/photo-1541339907198-e08756ebafe3?w=1200&q=80",
+        "pendingSrc": null,
+        "alt": "LPU Hi-tech Campus Architecture",
+        "pendingAlt": null,
         "width": 1200,
         "height": 675,
-        "pattern": "direct",
-        "pendingAlt": null,
-        "pendingSrc": null,
-        "sourceFile": "src/app/page.js",
         "isNextImage": true,
-        "originalSrc": "https://images.unsplash.com/photo-1541339907198-e08756ebafe3?w=1200&q=80"
-      },
-      "categories_images": {
-        "key": "categories_images",
-        "items": [
-          {
-            "alt": "Engineering",
-            "index": 0,
-            "pendingAlt": null,
-            "pendingSrc": null,
-            "originalSrc": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
-          },
-          {
-            "alt": "Management",
-            "index": 1,
-            "pendingAlt": null,
-            "pendingSrc": null,
-            "originalSrc": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
-          },
-          {
-            "alt": "Design",
-            "index": 2,
-            "pendingAlt": null,
-            "pendingSrc": null,
-            "originalSrc": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80"
-          },
-          {
-            "alt": "Computer Science",
-            "index": 3,
-            "pendingAlt": null,
-            "pendingSrc": null,
-            "originalSrc": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80"
-          }
-        ],
-        "pattern": "array",
-        "arrayVar": "categories",
         "sourceFile": "src/app/page.js"
       },
+      "categories_images": {
+        "pattern": "array",
+        "key": "categories_images",
+        "arrayVar": "categories",
+        "sourceFile": "src/app/page.js",
+        "items": [
+          {
+            "index": 0,
+            "originalSrc": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+            "pendingSrc": null,
+            "alt": "Engineering",
+            "pendingAlt": null
+          },
+          {
+            "index": 1,
+            "originalSrc": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80",
+            "pendingSrc": null,
+            "alt": "Management",
+            "pendingAlt": null
+          },
+          {
+            "index": 2,
+            "originalSrc": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80",
+            "pendingSrc": null,
+            "alt": "Design",
+            "pendingAlt": null
+          },
+          {
+            "index": 3,
+            "originalSrc": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+            "pendingSrc": null,
+            "alt": "Computer Science",
+            "pendingAlt": null
+          }
+        ]
+      },
       "why_lpu_image": {
-        "alt": "Students collaborating at LPU",
+        "pattern": "direct",
         "key": "why_lpu_image",
+        "originalSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80",
+        "pendingSrc": null,
+        "alt": "Students collaborating at LPU",
+        "pendingAlt": null,
         "width": null,
         "height": null,
-        "pattern": "direct",
-        "pendingAlt": null,
-        "pendingSrc": null,
-        "sourceFile": "src/app/page.js",
         "isNextImage": true,
-        "originalSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80"
+        "sourceFile": "src/app/page.js"
       },
       "cta_image": {
-        "alt": "Students",
+        "pattern": "direct",
         "key": "cta_image",
+        "originalSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+        "pendingSrc": null,
+        "alt": "Students",
+        "pendingAlt": null,
         "width": null,
         "height": null,
-        "pattern": "direct",
-        "pendingAlt": null,
-        "pendingSrc": null,
-        "sourceFile": "src/app/page.js",
         "isNextImage": true,
-        "originalSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80"
+        "sourceFile": "src/app/page.js"
       }
     }
   },
   "navbar": {
     "navbar_university_name": "Lovely Professional University",
-    "navbar_academics": "Academics",
-    "navbar_admissions": "Admissions",
-    "navbar_research": "Research",
-    "navbar_campus_life": "Campus Life",
-    "navbar_about": "About",
+    "navbar_academics_link": "Academics",
+    "navbar_admissions_link": "Admissions",
+    "navbar_research_link": "Research",
+    "navbar_campus_life_link": "Campus Life",
+    "navbar_about_link": "About",
     "images": {
       "lpu_logo": {
-        "alt": "",
+        "pattern": "direct",
         "key": "lpu_logo",
+        "originalSrc": null,
+        "pendingSrc": null,
+        "alt": "",
+        "pendingAlt": null,
         "width": null,
         "height": null,
-        "pattern": "direct",
-        "pendingAlt": null,
-        "pendingSrc": null,
-        "sourceFile": "src/components/Navbar.js",
         "isNextImage": false,
-        "originalSrc": null
+        "sourceFile": "src/components/Navbar.js"
       }
     }
   },
   "footer": {
-    "footer_description": "India's largest university providing world-class education and transforming millions of lives through innovation and excellence.",
-    "footer_quick_links_about": "About Us",
-    "footer_contact_address": "Jalandhar - Delhi, G.T. Road, Phagwara, Punjab",
-    "footer_contact_email": "admissions@lpu.co.in",
-    "footer_contact_phone": "+91-1824-404404",
+    "footer_university_description": "India's largest university providing world-class education and transforming millions of lives through innovation and excellence.",
+    "footer_quick_links_title": "Quick Links",
+    "footer_about_us_link": "About Us",
+    "footer_contact_title": "Contact",
+    "footer_address": "Jalandhar - Delhi, G.T. Road, Phagwara, Punjab",
+    "footer_email": "admissions@lpu.co.in",
+    "footer_phone": "+91-1824-404404",
     "footer_copyright": "2026 Lovely Professional University. All rights reserved.",
-    "footer_facebook": "Facebook",
-    "footer_instagram": "Instagram",
-    "footer_linkedin": "LinkedIn",
-    "footer_youtube": "YouTube"
+    "footer_facebook_link": "Facebook",
+    "footer_instagram_link": "Instagram",
+    "footer_linkedin_link": "LinkedIn",
+    "footer_youtube_link": "YouTube"
   }
 }
