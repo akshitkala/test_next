@@ -9,7 +9,6 @@ export default function Navbar() {
   const navLinks = [
     { name: "Academics", href: "/academics" },
     { name: "Admissions", href: "/admissions" },
-    { name: "Research", href: "/research" },
     { name: "Campus Life", href: "/campus-life" },
     { name: "About", href: "/about" },
   ];

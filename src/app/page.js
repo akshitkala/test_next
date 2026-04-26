@@ -14,22 +14,18 @@ export default function Home() {
     {
       title: "Engineering",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
-      link: "/academics/engineering",
     },
     {
       title: "Management",
       image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80",
-      link: "/academics/management",
     },
     {
       title: "Design",
       image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80",
-      link: "/academics/design",
     },
     {
       title: "Computer Science",
       image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
-      link: "/academics/cs",
     },
   ];
 
@@ -111,7 +107,7 @@ export default function Home() {
               </div>
               <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                 {categories.map((cat, i) => (
-                  <div key={i} className="group relative h-[400px] rounded-3xl overflow-hidden border border-white/10 cursor-pointer">
+                  <div key={i} className="group relative h-[400px] rounded-3xl overflow-hidden border border-white/10">
                     <Image
                       src={cat.image}
                       alt={cat.title}
@@ -121,12 +117,6 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent transition-opacity group-hover:opacity-90" />
                     <div className="absolute bottom-8 left-8 right-8 text-left">
                       <h4 className="text-2xl font-bold text-white mb-4">{cat.title}</h4>
-                      <button className="flex items-center gap-2 text-sm font-semibold text-accent opacity-0 translate-y-4 transition-all group-hover:opacity-100 group-hover:translate-y-0">
-                        View Details
-                        <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                        </svg>
-                      </button>
                     </div>
                   </div>
                 ))}

@@ -9,8 +9,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"]
 });
 export const metadata = {
-  title: "Nexus | The Future of Innovation",
-  description: "Elevate your digital experience with Nexus, the cutting-edge platform for the next generation of tech."
+  title: "Lovely Professional University | LPU",
+  description: "Experience world-class education at Lovely Professional University. Explore programs, admissions, and campus life."
 };
 export default function RootLayout({
   children
