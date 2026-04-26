@@ -1,0 +1,58 @@
+{
+  "retrofitted_files": [
+    "src/app/page.js",
+    "src/components/Navbar.js",
+    "src/components/Footer.js"
+  ],
+  "content_map": {
+    "page": {
+      "path": "src/app/page.js",
+      "fields": [
+        "home.admissions_open_2024",
+        "home.shape_your_future",
+        "home.transforming_education",
+        "home.empowering_global_leaders",
+        "home.explore_programs",
+        "home.virtual_tour",
+        "home.discover_your_passion",
+        "home.choose_from_200_programs",
+        "home.ready_to_start_your_journey",
+        "home.join_thousands_of_students",
+        "home.apply_now",
+        "home.download_brochure",
+        "home.students"
+      ]
+    },
+    "navbar": {
+      "path": "src/components/Navbar.js",
+      "fields": [
+        "navbar.navbar_logo_text",
+        "navbar.navbar_university_name",
+        "home.apply_now"
+      ]
+    },
+    "footer": {
+      "path": "src/components/Footer.js",
+      "fields": [
+        "navbar.navbar_logo_text",
+        "navbar.navbar_university_name",
+        "footer.footer_description",
+        "footer.footer_quick_links_heading",
+        "footer.footer_quick_link_about_us",
+        "navbar.navbar_nav_link_academics",
+        "navbar.navbar_nav_link_admissions",
+        "navbar.navbar_nav_link_campus_life",
+        "footer.footer_contact_heading",
+        "footer.footer_contact_address",
+        "footer.footer_contact_email",
+        "footer.footer_contact_phone",
+        "footer.footer_copyright",
+        "footer.footer_social_link_facebook",
+        "footer.footer_social_link_instagram",
+        "footer.footer_social_link_linkedin",
+        "footer.footer_social_link_youtube"
+      ]
+    }
+  },
+  "retrofit_timestamp": "2026-04-26T20:23:10.569Z"
+}
