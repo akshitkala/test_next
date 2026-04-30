@@ -49,7 +49,7 @@ export default function About() {
 
             <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[500px]">
               <Image 
-                src="https://images.unsplash.com/photo-1498243639359-2818a74e2027?w=800&q=80" 
+                src="/lpu_main_building.png" 
                 alt="LPU Main Building"
                 fill
                 className="object-cover"

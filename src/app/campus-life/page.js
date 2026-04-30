@@ -4,10 +4,10 @@ import Footer from "@/components/Footer";
 
 export default function CampusLife() {
   const activities = [
-    { title: "One World", desc: "Our annual international mega fest showcasing cultural diversity.", image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&q=80" },
-    { title: "Youth Vibe", desc: "Asia's largest youth festival with competitions and star nights.", image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80" },
-    { title: "Sports Complex", desc: "Olympic-sized swimming pools, indoor stadiums, and high-end gyms.", image: "https://images.unsplash.com/photo-1541252260730-0412e8e2108e?w=800&q=80" },
-    { title: "Food Courts", desc: "A variety of cuisines from across the world in our campus food courts.", image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80" },
+    { title: "One World", desc: "Our annual international mega fest showcasing cultural diversity.", image: "/cultural_festival.png" },
+    { title: "Youth Vibe", desc: "Asia's largest youth festival with competitions and star nights.", image: "/youth_festival.png" },
+    { title: "Sports Complex", desc: "Olympic-sized swimming pools, indoor stadiums, and high-end gyms.", image: "/sports_complex.png" },
+    { title: "Food Courts", desc: "A variety of cuisines from across the world in our campus food courts.", image: "/food_court.png" },
   ];
 
   return (

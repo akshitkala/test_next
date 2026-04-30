@@ -13,19 +13,19 @@ export default function Home() {
   const categories = [
     {
       title: "Engineering",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+      image: "/engineering_students.png",
     },
     {
       title: "Management",
-      image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80",
+      image: "/management_business.png",
     },
     {
       title: "Design",
-      image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80",
+      image: "/design_studio.png",
     },
     {
       title: "Computer Science",
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+      image: "/computer_science_lab.png",
     },
   ];
 
@@ -83,7 +83,7 @@ export default function Home() {
               <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-r from-accent/20 to-yellow-500/20 blur-3xl opacity-50 group-hover:opacity-75 transition-opacity" />
               <div className="relative rounded-[2rem] border border-white/10 overflow-hidden shadow-[0_40px_120px_rgba(245,130,32,0.15)]">
                 <Image
-                  src="https://images.unsplash.com/photo-1541339907198-e08756ebafe3?w=1200&q=80"
+                  src="/campus_hero.png"
                   alt="LPU Hi-tech Campus Architecture"
                   width={1200}
                   height={675}
@@ -147,12 +147,12 @@ export default function Home() {
                   </div>
                </div>
                <div className="relative rounded-3xl overflow-hidden aspect-square">
-                  <Image 
-                    src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80" 
-                    alt="Students collaborating at LPU"
-                    fill
-                    className="object-cover"
-                  />
+                   <Image 
+                     src="/students_collaborating.png" 
+                     alt="Students collaborating at LPU"
+                     fill
+                     className="object-cover"
+                   />
                   <div className="absolute inset-0 bg-accent/20 mix-blend-overlay" />
                   <div className="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-3xl" />
                </div>
@@ -171,7 +171,7 @@ export default function Home() {
                      </div>
                   </div>
                   <div className="hidden lg:block absolute top-0 right-0 w-1/3 h-full grayscale opacity-20 pointer-events-none">
-                     <Image src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80" alt="Students" fill className="object-cover" />
+                      <Image src="/cta_students.png" alt="Students" fill className="object-cover" />
                   </div>
                </div>
             </div>
