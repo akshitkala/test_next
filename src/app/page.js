@@ -42,7 +42,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 inline-flex animate-float items-center rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm font-medium text-accent">
               <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">Admissions Open 2024</span>
-              Shape Your Future at India's Largest University  
+              Shape Your Future at India&apos;s Largest University  
             </div>
             
             <h1 className="mb-8 max-w-5xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl leading-tight">
@@ -164,7 +164,7 @@ export default function Home() {
                <div className="relative p-12 md:p-20 rounded-[3rem] border border-white/10 bg-white/5 overflow-hidden">
                   <div className="max-w-2xl">
                      <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to start your journey?</h2>
-                     <p className="text-xl text-muted-foreground mb-10">Join thousands of students from around the world and build a career you're proud of. Admissions are currently open for 2024-25.</p>
+                     <p className="text-xl text-muted-foreground mb-10">Join thousands of students from around the world and build a career you&apos;re proud of. Admissions are currently open for 2024-25.</p>
                      <div className="flex flex-col sm:flex-row gap-4">
                         <button className="h-14 px-10 rounded-full bg-accent text-white font-bold hover:shadow-[0_0_30px_rgba(245,130,32,0.5)] transition-all">Apply Now</button>
                         <button className="h-14 px-10 rounded-full border border-white/20 bg-transparent font-bold hover:bg-white/5 transition-all">Download Brochure</button>

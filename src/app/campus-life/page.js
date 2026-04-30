@@ -22,7 +22,7 @@ export default function CampusLife() {
               Campus <span className="text-gradient">Vibe</span>
             </h1>
             <p className="mx-auto max-w-3xl text-lg text-muted-foreground md:text-xl">
-              Life at LPU is more than just classrooms. It's about discovering yourself, 
+              Life at LPU is more than just classrooms. It&apos;s about discovering yourself, 
               making lifelong friends, and creating memories that last forever.
             </p>
           </div>

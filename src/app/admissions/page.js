@@ -25,7 +25,7 @@ export default function Admissions() {
             </h1>
             <p className="mx-auto max-w-3xl text-lg text-muted-foreground md:text-xl">
               Join the cohort of ambitious students from across 50+ countries. 
-              Secure your future at one of India's top-ranked universities.
+              Secure your future at one of India&apos;s top-ranked universities.
             </p>
           </div>
 

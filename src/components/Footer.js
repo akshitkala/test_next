@@ -11,7 +11,7 @@ export default function Footer() {
                 <span className="text-xl font-bold tracking-tighter uppercase">Lovely Professional University</span>
               </Link>
               <p className="text-muted-foreground max-w-sm">
-                India's largest university providing world-class education and transforming 
+                India&apos;s largest university providing world-class education and transforming 
                 millions of lives through innovation and excellence.
               </p>
            </div>
