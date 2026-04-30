@@ -1,8 +1,6 @@
 import Link from "next/link";
-
 export default function Footer() {
-  return (
-    <footer className="border-t border-white/5 bg-black py-20">
+  return <footer className="border-t border-white/5 bg-black py-20">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-12 md:grid-cols-4 mb-12">
            <div className="md:col-span-2">
@@ -10,10 +8,7 @@ export default function Footer() {
                 <div className="h-6 w-6 rounded bg-gradient-primary transition-transform group-hover:scale-110 flex items-center justify-center text-[8px] text-white font-bold">LPU</div>
                 <span className="text-xl font-bold tracking-tighter uppercase">Lovely Professional University</span>
               </Link>
-              <p className="text-muted-foreground max-w-sm">
-                India&apos;s largest university providing world-class education and transforming 
-                millions of lives through innovation and excellence.
-              </p>
+              <p className="text-muted-foreground max-w-sm">India's largest university providing world-class education and transforming millions of lives through innovation and excellence.</p>
            </div>
            <div>
               <h4 className="font-bold mb-6">Quick Links</h4>
@@ -45,6 +40,5 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 }
