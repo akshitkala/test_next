@@ -29,9 +29,7 @@ export default function Footer() {
            </div>
         </div>
         <div className="flex flex-col items-center justify-between gap-6 border-t border-white/5 pt-12 md:flex-row">
-          <p className="text-sm text-muted-foreground">
-            © 2026 Lovely Professional University. All rights reserved.
-          </p>
+          <p className="text-sm text-muted-foreground">© 2026 Lovely Professional University. All rights reserved.</p>
           <div className="flex gap-6 text-muted-foreground text-sm font-medium">
             <a href="#" className="hover:text-accent transition-colors">Facebook</a>
             <a href="#" className="hover:text-accent transition-colors">Instagram</a>
