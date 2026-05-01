@@ -17,7 +17,8 @@ export default function About() {
             <p className="mx-auto max-w-3xl text-lg text-muted-foreground md:text-xl">
               Lovely Professional University is a world-class institution dedicated to excellence in teaching, 
               learning, and research. Founded with the vision of creating global leaders, LPU is today a 
-              symbol of innovation and academic brilliance.
+              symbol of innovation and academic brilliance to secure your future
+            .
             </p>
           </div>
 
