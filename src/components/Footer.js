@@ -6,7 +6,7 @@ export default function Footer() {
            <div className="md:col-span-2">
               <Link href="/" className="flex items-center gap-2 group mb-6">
                 <div className="h-6 w-6 rounded bg-gradient-primary transition-transform group-hover:scale-110 flex items-center justify-center text-[8px] text-white font-bold">LPU</div>
-                <span className="text-xl font-bold tracking-tighter uppercase">Lovely Professional University</span>
+                <span className="text-xl font-bold tracking-tighter uppercase">LPU</span>
               </Link>
               <p className="text-muted-foreground max-w-sm">India's largest university providing world-class education and transforming millions of lives through innovation and excellence.</p>
            </div>

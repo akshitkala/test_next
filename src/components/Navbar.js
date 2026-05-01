@@ -23,7 +23,7 @@ export default function Navbar() {
           <div className="h-8 w-8 rounded-lg bg-gradient-primary transition-transform group-hover:scale-110 flex items-center justify-center">
              <span className="text-[10px] font-black text-white">LPU</span>
           </div>
-          <span className="text-xl font-bold tracking-tighter uppercase">Lovely Professional University</span>
+          <span className="text-xl font-bold tracking-tighter uppercase">LPU</span>
         </Link>
         
         <div className="hidden items-center gap-8 text-sm font-medium text-muted-foreground transition-colors md:flex">

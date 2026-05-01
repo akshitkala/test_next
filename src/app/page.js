@@ -41,11 +41,11 @@ export default function Home() {
             <div className="mb-8 inline-flex animate-float items-center rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm font-medium text-accent">
               <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">Admissions Open 2026 from nowonwards  with the help of ai</span>Shape Your Future at India's Largest University</div>
             
-            <h1 className="mb-8 max-w-5xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl leading-tight">Transforming Education<br />
+            <h1 className="mb-8 max-w-5xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl leading-tight">Transforming Education from nnow<br />
               <span className="text-gradient">Empowering Global Leaders</span>
             </h1>
             
-            <p className="mb-12 max-w-3xl text-lg text-muted-foreground md:text-xl leading-relaxed">Experience a world-class education at Lovely Professional University. With a 600-acre hi-tech campus, industry-aligned curriculum, and unmatched placement records, we prepare you for the global stage.</p>
+            <p className="mb-12 max-w-3xl text-lg text-muted-foreground md:text-xl leading-relaxed">Experience a world-class education at Lovely Professional University. </p>
 
             <div className="flex flex-col gap-4 sm:flex-row">
               <button className="group relative flex h-14 items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-primary px-10 font-semibold text-white transition-all hover:shadow-[0_0_40px_rgba(245,130,32,0.4)] hover:scale-105 active:scale-95">Explore Programs<svg className="h-5 w-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
