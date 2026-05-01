@@ -31,7 +31,7 @@ export default function About() {
             </div>
 
             <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[500px]">
-              <Image src="/lpu_main_building.png" alt="LPU Main Building" fill className="object-cover" />
+              <Image src="/panelify-images/hero_students_campus_1775179257785.webp" alt="LPU Main Building" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             </div>
           </div>
