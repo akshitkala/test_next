@@ -1,32 +1,36 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
 export default function Admissions() {
-  const steps = [
-    { title: "Select Program", desc: "Choose your desired program from our list of 200+ courses." },
-    { title: "Register Online", desc: "Create your account on the LPU AdMIT portal and fill the application." },
-    { title: "LPUNEST", desc: "Take our national entrance and scholarship test for admission and benefits." },
-    { title: "Submit Documents", desc: "Upload necessary academic documents for verification." },
-    { title: "Pay Fee", desc: "Pay the initial registration fee to secure your seat." },
-    { title: "Welcome to LPU", desc: "Join the induction program and start your university life." },
-  ];
-
-  return (
-    <div className="relative min-h-screen overflow-hidden selection:bg-accent/30 selection:text-white">
+  const steps = [{
+    title: "Select Program",
+    desc: "Choose your desired program from our list of 200+ courses."
+  }, {
+    title: "Register Online",
+    desc: "Create your account on the LPU AdMIT portal and fill the application."
+  }, {
+    title: "LPUNEST",
+    desc: "Take our national entrance and scholarship test for admission and benefits."
+  }, {
+    title: "Submit Documents",
+    desc: "Upload necessary academic documents for verification."
+  }, {
+    title: "Pay Fee",
+    desc: "Pay the initial registration fee to secure your seat."
+  }, {
+    title: "Welcome to LPU",
+    desc: "Join the induction program and start your university life."
+  }];
+  return <div className="relative min-h-screen overflow-hidden selection:bg-accent/30 selection:text-white">
       <Navbar />
       <div className="hero-mesh" />
 
       <main className="relative pt-32 pb-20 md:pt-48 md:pb-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-20 text-center">
-            <h1 className="text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl mb-8">
-              Admissions <span className="text-gradient">2024</span>
+            <h1 className="text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl mb-8">Admissions<span className="text-gradient">2024</span>
             </h1>
-            <p className="mx-auto max-w-3xl text-lg text-muted-foreground md:text-xl">
-              Join the cohort of ambitious students from across 50+ countries. 
-              Secure your future at one of India&apos;s top-ranked universities.
-            </p>
+            <p className="mx-auto max-w-3xl text-lg text-muted-foreground md:text-xl">Join the cohort of ambitious students from across 50+ countries. Secure your future at one of India's top-ranked universities.</p>
           </div>
 
           <div className="grid gap-12 lg:grid-cols-3">
@@ -34,15 +38,13 @@ export default function Admissions() {
               <div className="p-10 rounded-3xl border border-white/5 bg-white/5">
                 <h2 className="text-3xl font-bold mb-10">Application Process</h2>
                 <div className="grid gap-8 sm:grid-cols-2">
-                   {steps.map((step, i) => (
-                      <div key={i} className="relative pl-12 group">
+                   {steps.map((step, i) => <div key={i} className="relative pl-12 group">
                          <div className="absolute left-0 top-0 h-8 w-8 rounded-full bg-accent flex items-center justify-center text-white font-bold text-sm shadow-[0_0_15px_rgba(245,130,32,0.5)]">
-                            {i+1}
+                            {i + 1}
                          </div>
                          <h4 className="text-lg font-bold mb-2 group-hover:text-accent transition-colors">{step.title}</h4>
                          <p className="text-muted-foreground text-sm">{step.desc}</p>
-                      </div>
-                   ))}
+                      </div>)}
                 </div>
               </div>
 
@@ -88,6 +90,5 @@ export default function Admissions() {
       </main>
 
       <Footer />
-    </div>
-  );
+    </div>;
 }
