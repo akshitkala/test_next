@@ -69,7 +69,7 @@ export default function Home() {
             <div className="relative mt-32 w-full max-w-6xl group">
               <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-r from-accent/20 to-yellow-500/20 blur-3xl opacity-50 group-hover:opacity-75 transition-opacity" />
               <div className="relative rounded-[2rem] border border-white/10 overflow-hidden shadow-[0_40px_120px_rgba(245,130,32,0.15)]">
-                <Image src="/images/panelify-page-campus_hero_image.webp" alt="LPU Hi-tech Campus Architecture" width={1200} height={675} className="w-full object-cover transition-transform duration-700 group-hover:scale-105" priority />
+                <Image src="/images/page-hero_campus_image-143849e5.webp" alt="LPU Hi-tech Campus Architecture" width={1200} height={675} className="w-full object-cover transition-transform duration-700 group-hover:scale-105" priority />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-12">
                    <div className="text-left">
                       <h3 className="text-3xl font-bold text-white mb-2">A Campus Like No Other</h3>
