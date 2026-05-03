@@ -1,0 +1,134 @@
+{
+  "home": {
+    "admissions_open_label": "Admissions Open 2026",
+    "hero_title": "Transforming Education",
+    "hero_subtitle": "Empowering Global Leaders",
+    "hero_description": "Experience a world-class education at Lovely Professional University. With a 600-acre hi-tech campus, industry-aligned curriculum, and unmatched placement records, we prepare you for the global stage.",
+    "explore_programs_button": "Explore Programs",
+    "virtual_tour_button": "Virtual Tour",
+    "students_label": "Students",
+    "students_value": "30,000+",
+    "faculty_label": "Faculty",
+    "faculty_value": "2,000+",
+    "acre_campus_label": "Acre Campus",
+    "acre_campus_value": "600+",
+    "top_rankings_label": "Top Rankings",
+    "top_rankings_value": "NIRF #1",
+    "discover_your_passion_title": "Discover Your Passion",
+    "discover_your_passion_description": "Choose from 200+ programs across various disciplines, designed to meet the demands of the modern industry.",
+    "engineering_title": "Engineering",
+    "management_title": "Management",
+    "design_title": "Design",
+    "computer_science_title": "Computer Science",
+    "why_choose_lpu_title": "Why Choose Lovely Professional University?",
+    "global_exposure_title": "Global Exposure",
+    "global_exposure_description": "Partnerships with 200+ foreign universities for exchange programs.",
+    "placement_excellence_title": "Placement Excellence",
+    "placement_excellence_description": "Top MNCs visit every year with record-breaking packages.",
+    "research_driven_title": "Research Driven",
+    "research_driven_description": "Dedicated research wings and innovation labs for students.",
+    "holistic_development_title": "Holistic Development",
+    "holistic_development_description": "300+ clubs and societies for extracurricular excellence.",
+    "ready_to_start_your_journey_title": "Ready to start your journey?",
+    "ready_to_start_your_journey_description": "Join thousands of students from around the world and build a career you're proud of. Admissions are currently open for 2024-25.",
+    "apply_now_button": "Apply Now",
+    "download_brochure_button": "Download Brochure"
+  },
+  "navbar": {
+    "navbar_university_name": "Lovely Professional University",
+    "navbar_academics_link": "Academics",
+    "navbar_admissions_link": "Admissions",
+    "navbar_campus_life_link": "Campus Life",
+    "navbar_about_link": "About"
+  },
+  "footer": {
+    "footer_description": "India's largest university providing world-class education and transforming millions of lives through innovation and excellence.",
+    "footer_quick_links_title": "Quick Links",
+    "footer_about_us_link": "About Us",
+    "footer_contact_title": "Contact",
+    "footer_address": "Jalandhar - Delhi, G.T. Road, Phagwara, Punjab",
+    "footer_email": "admissions@lpu.co.in",
+    "footer_phone": "+91-1824-404404",
+    "footer_copyright": "2026 Lovely Professional University. All rights reserved.",
+    "footer_facebook_link": "Facebook",
+    "footer_instagram_link": "Instagram",
+    "footer_linkedin_link": "LinkedIn",
+    "footer_youtube_link": "YouTube"
+  },
+  "page": {
+    "images": {
+      "campus_hero_image": {
+        "pattern": "direct",
+        "key": "campus_hero_image",
+        "originalSrc": "/campus_hero.png",
+        "pendingSrc": null,
+        "alt": "LPU Hi-tech Campus Architecture",
+        "pendingAlt": null,
+        "width": 1200,
+        "height": 675,
+        "isNextImage": true,
+        "sourceFile": "src/app/page.js"
+      },
+      "students_collaborating_image": {
+        "pattern": "direct",
+        "key": "students_collaborating_image",
+        "originalSrc": "/students_collaborating.png",
+        "pendingSrc": null,
+        "alt": "Students collaborating at LPU",
+        "pendingAlt": null,
+        "width": null,
+        "height": null,
+        "isNextImage": true,
+        "sourceFile": "src/app/page.js"
+      },
+      "cta_students_image": {
+        "pattern": "direct",
+        "key": "cta_students_image",
+        "originalSrc": "/cta_students.png",
+        "pendingSrc": null,
+        "alt": "Students",
+        "pendingAlt": null,
+        "width": null,
+        "height": null,
+        "isNextImage": true,
+        "sourceFile": "src/app/page.js"
+      },
+      "categories_images": {
+        "pattern": "array",
+        "key": "categories_images",
+        "arrayVar": "categories",
+        "sourceFile": "src/app/page.js",
+        "items": [
+          {
+            "index": 0,
+            "originalSrc": "/engineering_students.png",
+            "pendingSrc": null,
+            "alt": "Engineering",
+            "pendingAlt": null
+          },
+          {
+            "index": 1,
+            "originalSrc": "/management_business.png",
+            "pendingSrc": null,
+            "alt": "Management",
+            "pendingAlt": null
+          },
+          {
+            "index": 2,
+            "originalSrc": "/design_studio.png",
+            "pendingSrc": null,
+            "alt": "Design",
+            "pendingAlt": null
+          },
+          {
+            "index": 3,
+            "originalSrc": "/computer_science_lab.png",
+            "pendingSrc": null,
+            "alt": "Computer Science",
+            "pendingAlt": null
+          }
+        ]
+      }
+    }
+  }
+}

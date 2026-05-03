@@ -1,0 +1,44 @@
+{
+  "retrofitted_files": [
+    "src/app/page.js",
+    "src/components/Navbar.js",
+    "src/components/Footer.js"
+  ],
+  "content_map": {
+    "src/app/page.js": [
+      "home.admissions_open_label",
+      "home.hero_title",
+      "home.hero_subtitle",
+      "home.hero_description",
+      "home.explore_programs_button",
+      "home.virtual_tour_button",
+      "home.discover_your_passion_title",
+      "home.discover_your_passion_description",
+      "home.ready_to_start_your_journey_title",
+      "home.ready_to_start_your_journey_description",
+      "home.apply_now_button",
+      "home.download_brochure_button",
+      "home.students_label"
+    ],
+    "src/components/Navbar.js": [
+      "navbar.navbar_university_name",
+      "home.apply_now_button"
+    ],
+    "src/components/Footer.js": [
+      "navbar.navbar_university_name",
+      "footer.footer_description",
+      "footer.footer_quick_links_title",
+      "footer.footer_about_us_link",
+      "navbar.navbar_academics_link",
+      "navbar.navbar_admissions_link",
+      "navbar.navbar_campus_life_link",
+      "footer.footer_contact_title",
+      "footer.footer_address",
+      "footer.footer_facebook_link",
+      "footer.footer_instagram_link",
+      "footer.footer_linkedin_link",
+      "footer.footer_youtube_link"
+    ]
+  },
+  "retrofit_timestamp": "2026-05-03T18:31:54.210Z"
+}
