@@ -1,10 +1,8 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
 export default function About() {
-  return (
-    <div className="relative min-h-screen overflow-hidden selection:bg-accent/30 selection:text-white">
+  return <div className="relative min-h-screen overflow-hidden selection:bg-accent/30 selection:text-white">
       <Navbar />
       <div className="hero-mesh" />
 
@@ -26,9 +24,7 @@ export default function About() {
             <div className="space-y-8">
               <h2 className="text-3xl font-bold">Our Vision</h2>
               <p className="text-muted-foreground leading-relaxed">
-                To be a premier academic institution, recognized internationally for its contribution 
-                to industry and society through excellence in teaching, learning, research, 
-                internationalization, entrepreneurship, and leadership.
+                To be a premier academic institution, recognized internationally for its contribution to industry and society through excellence in teaching, learning, research, internationalization, entrepreneurship, and leadership.
               </p>
               
               <h2 className="text-3xl font-bold pt-8">Our Mission</h2>
@@ -49,12 +45,7 @@ export default function About() {
             </div>
 
             <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[500px]">
-              <Image 
-                src="/lpu_main_building.png" 
-                alt="LPU Main Building"
-                fill
-                className="object-cover"
-              />
+              <Image src="/lpu_main_building.png" alt="LPU Main Building" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             </div>
           </div>
@@ -62,6 +53,5 @@ export default function About() {
       </main>
 
       <Footer />
-    </div>
-  );
+    </div>;
 }

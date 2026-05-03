@@ -39,16 +39,14 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 inline-flex animate-float items-center rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm font-medium text-accent">
-              <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">Admissions Open 2026</span>Shape Your Future at India's Largest University</div>
+              <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">Admissions Open 2026</span>nobody nobody does it better</div>
             
             <h1 className="mb-8 max-w-5xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl leading-tight">Transforming Education<br />
               <span className="text-gradient">Empowering Global Leaders</span>
             </h1>
             
             <p className="mb-12 max-w-3xl text-lg text-muted-foreground md:text-xl leading-relaxed">
-              Experience a world-class education at Lovely Professional University. 
-              With a 600-acre hi-tech campus, industry-aligned curriculum, and unmatched 
-              placement records, we prepare you for the global stage.
+              Experience a world-class education at Lovely Professional University. With a 600-acre hi-tech campus, industry-aligned curriculum, and unmatched placement records, we prepare you for the global stage.
             </p>
 
             <div className="flex flex-col gap-4 sm:flex-row">
