@@ -72,7 +72,7 @@
         "pattern": "direct",
         "key": "hero_campus_image",
         "originalSrc": "/images/panelify-page-campus_hero_image.webp",
-        "pendingSrc": null,
+        "pendingSrc": "https://ahfmcvrkclzmdyetwdza.supabase.co/storage/v1/object/public/panelify-images/akshitkala/test_next/page-hero_campus_image-143849e5.webp",
         "alt": "LPU Hi-tech Campus Architecture",
         "pendingAlt": null,
         "width": 1200,
