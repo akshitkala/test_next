@@ -42,8 +42,8 @@ export default function Home() {
             <div className="mb-8 inline-flex animate-float items-center rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm font-medium text-accent">
               <span className="mr-2 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider">{content.home.admissions_open_label}</span>nobody nobody does it better</div>
             
-            <h1 className="mb-8 max-w-5xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl leading-tight">{content.home.hero_title}<br />
-              <span className="text-gradient">{content.home.hero_subtitle}</span>
+            <h1 className="mb-8 max-w-5xl text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl leading-tight">Transforming Education<br />
+              <span className="text-gradient">Empowering Global Leaders</span>
             </h1>
             
             <p className="mb-12 max-w-3xl text-lg text-muted-foreground md:text-xl leading-relaxed">
@@ -73,8 +73,8 @@ export default function Home() {
                 <Image src="/images/panelify-page-campus_hero_image.webp" alt="LPU Hi-tech Campus Architecture" width={1200} height={675} className="w-full object-cover transition-transform duration-700 group-hover:scale-105" priority />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-12">
                    <div className="text-left">
-                      <h3 className="text-3xl font-bold text-white mb-2">{content.home.campus_title}</h3>
-                      <p className="text-white/70 max-w-xl">{content.home.campus_description}</p>
+                      <h3 className="text-3xl font-bold text-white mb-2">{content.home.campus_description}</h3>
+                      <p className="text-white/70 max-w-xl">{content.home.campus_paragraph}</p>
                    </div>
                 </div>
               </div>
@@ -84,7 +84,7 @@ export default function Home() {
             <div className="mt-40 w-full">
               <div className="flex flex-col items-center mb-16">
                 <h2 className="text-4xl font-bold mb-4">{content.home.discover_passion_title}</h2>
-                <p className="text-muted-foreground text-center max-w-2xl">{content.home.discover_passion_description}</p>
+                <p className="text-muted-foreground text-center max-w-2xl">{content.home.discover_passion_paragraph}</p>
               </div>
               <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                 {categories.map((cat, i) => <div key={i} className="group relative h-[400px] rounded-3xl overflow-hidden border border-white/10">
@@ -137,15 +137,15 @@ export default function Home() {
                <div className="absolute inset-0 rounded-[3rem] bg-gradient-primary opacity-10 blur-3xl" />
                <div className="relative p-12 md:p-20 rounded-[3rem] border border-white/10 bg-white/5 overflow-hidden">
                   <div className="max-w-2xl">
-                     <h2 className="text-4xl md:text-5xl font-bold mb-6">{content.home.ready_to_start_title}</h2>
-                     <p className="text-xl text-muted-foreground mb-10">{content.home.ready_to_start_description}</p>
+                     <h2 className="text-4xl md:text-5xl font-bold mb-6">{content.home.ready_to_start_journey_title}</h2>
+                     <p className="text-xl text-muted-foreground mb-10">{content.home.ready_to_start_journey_paragraph}</p>
                      <div className="flex flex-col sm:flex-row gap-4">
                         <button className="h-14 px-10 rounded-full bg-accent text-white font-bold hover:shadow-[0_0_30px_rgba(245,130,32,0.5)] transition-all">{content.home.apply_now_button}</button>
                         <button className="h-14 px-10 rounded-full border border-white/20 bg-transparent font-bold hover:bg-white/5 transition-all">{content.home.download_brochure_button}</button>
                      </div>
                   </div>
                   <div className="hidden lg:block absolute top-0 right-0 w-1/3 h-full grayscale opacity-20 pointer-events-none">
-                      <Image src="/cta_students.png" alt={content.home.stats_label_1} fill className="object-cover" />
+                      <Image src="/cta_students.png" alt={content.home.students_label} fill className="object-cover" />
                   </div>
                </div>
             </div>
