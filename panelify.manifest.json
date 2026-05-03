@@ -1,10 +1,20 @@
 {
   "retrofitted_files": [
+    "src/app/about/page.js",
     "src/app/page.js",
     "src/components/Navbar.js",
     "src/components/Footer.js"
   ],
   "content_map": {
+    "src/app/about/page.js": [
+      "navbar.navbar_about_link",
+      "about.our_vision_header",
+      "about.our_vision_description",
+      "about.our_mission_header",
+      "about.our_mission_item1",
+      "about.our_mission_item2",
+      "about.our_mission_item3"
+    ],
     "src/app/page.js": [
       "home.admissions_open_label",
       "home.hero_title",
@@ -12,13 +22,15 @@
       "home.hero_description",
       "home.explore_programs_button",
       "home.virtual_tour_button",
-      "home.discover_your_passion_title",
-      "home.discover_your_passion_description",
-      "home.ready_to_start_your_journey_title",
-      "home.ready_to_start_your_journey_description",
+      "home.campus_title",
+      "home.campus_description",
+      "home.discover_passion_title",
+      "home.discover_passion_description",
+      "home.ready_to_start_title",
+      "home.ready_to_start_description",
       "home.apply_now_button",
       "home.download_brochure_button",
-      "home.students_label"
+      "home.stats_label_1"
     ],
     "src/components/Navbar.js": [
       "navbar.navbar_university_name",
@@ -26,7 +38,7 @@
     ],
     "src/components/Footer.js": [
       "navbar.navbar_university_name",
-      "footer.footer_description",
+      "footer.footer_university_description",
       "footer.footer_quick_links_title",
       "footer.footer_about_us_link",
       "navbar.navbar_academics_link",
@@ -40,6 +52,5 @@
       "footer.footer_youtube_link"
     ]
   },
-  "retrofit_timestamp": "2026-05-03T18:31:54.210Z",
-  "last_published": "2026-05-03T18:33:08.295Z"
+  "retrofit_timestamp": "2026-05-03T19:06:32.291Z"
 }

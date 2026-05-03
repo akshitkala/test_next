@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="h-6 w-6 rounded bg-gradient-primary transition-transform group-hover:scale-110 flex items-center justify-center text-[8px] text-white font-bold">LPU</div>
                 <span className="text-xl font-bold tracking-tighter uppercase">{content.navbar.navbar_university_name}</span>
               </Link>
-              <p className="text-muted-foreground max-w-sm">{content.footer.footer_description}</p>
+              <p className="text-muted-foreground max-w-sm">{content.footer.footer_university_description}</p>
            </div>
            <div>
               <h4 className="font-bold mb-6">{content.footer.footer_quick_links_title}</h4>

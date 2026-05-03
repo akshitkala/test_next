@@ -70,11 +70,11 @@ export default function Home() {
             <div className="relative mt-32 w-full max-w-6xl group">
               <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-r from-accent/20 to-yellow-500/20 blur-3xl opacity-50 group-hover:opacity-75 transition-opacity" />
               <div className="relative rounded-[2rem] border border-white/10 overflow-hidden shadow-[0_40px_120px_rgba(245,130,32,0.15)]">
-                <Image src="/campus_hero.png" alt="LPU Hi-tech Campus Architecture" width={1200} height={675} className="w-full object-cover transition-transform duration-700 group-hover:scale-105" priority />
+                <Image src="/images/panelify-page-campus_hero_image.webp" alt="LPU Hi-tech Campus Architecture" width={1200} height={675} className="w-full object-cover transition-transform duration-700 group-hover:scale-105" priority />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-12">
                    <div className="text-left">
-                      <h3 className="text-3xl font-bold text-white mb-2">A Campus Like No Other</h3>
-                      <p className="text-white/70 max-w-xl">Sprawled across 600 acres, our campus is a vibrant ecosystem of learning, innovation, and cultural diversity.</p>
+                      <h3 className="text-3xl font-bold text-white mb-2">{content.home.campus_title}</h3>
+                      <p className="text-white/70 max-w-xl">{content.home.campus_description}</p>
                    </div>
                 </div>
               </div>
@@ -83,8 +83,8 @@ export default function Home() {
             {/* Academic Categories */}
             <div className="mt-40 w-full">
               <div className="flex flex-col items-center mb-16">
-                <h2 className="text-4xl font-bold mb-4">{content.home.discover_your_passion_title}</h2>
-                <p className="text-muted-foreground text-center max-w-2xl">{content.home.discover_your_passion_description}</p>
+                <h2 className="text-4xl font-bold mb-4">{content.home.discover_passion_title}</h2>
+                <p className="text-muted-foreground text-center max-w-2xl">{content.home.discover_passion_description}</p>
               </div>
               <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                 {categories.map((cat, i) => <div key={i} className="group relative h-[400px] rounded-3xl overflow-hidden border border-white/10">
@@ -137,15 +137,15 @@ export default function Home() {
                <div className="absolute inset-0 rounded-[3rem] bg-gradient-primary opacity-10 blur-3xl" />
                <div className="relative p-12 md:p-20 rounded-[3rem] border border-white/10 bg-white/5 overflow-hidden">
                   <div className="max-w-2xl">
-                     <h2 className="text-4xl md:text-5xl font-bold mb-6">{content.home.ready_to_start_your_journey_title}</h2>
-                     <p className="text-xl text-muted-foreground mb-10">{content.home.ready_to_start_your_journey_description}</p>
+                     <h2 className="text-4xl md:text-5xl font-bold mb-6">{content.home.ready_to_start_title}</h2>
+                     <p className="text-xl text-muted-foreground mb-10">{content.home.ready_to_start_description}</p>
                      <div className="flex flex-col sm:flex-row gap-4">
                         <button className="h-14 px-10 rounded-full bg-accent text-white font-bold hover:shadow-[0_0_30px_rgba(245,130,32,0.5)] transition-all">{content.home.apply_now_button}</button>
                         <button className="h-14 px-10 rounded-full border border-white/20 bg-transparent font-bold hover:bg-white/5 transition-all">{content.home.download_brochure_button}</button>
                      </div>
                   </div>
                   <div className="hidden lg:block absolute top-0 right-0 w-1/3 h-full grayscale opacity-20 pointer-events-none">
-                      <Image src="/cta_students.png" alt={content.home.students_label} fill className="object-cover" />
+                      <Image src="/cta_students.png" alt={content.home.stats_label_1} fill className="object-cover" />
                   </div>
                </div>
             </div>

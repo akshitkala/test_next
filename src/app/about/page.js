@@ -1,3 +1,4 @@
+import content from "../../../content.json";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -10,7 +11,7 @@ export default function About() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-20 text-center">
             <h1 className="text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl mb-8">
-              About <span className="text-gradient">LPU</span>
+              {content.navbar.navbar_about_link} <span className="text-gradient">LPU</span>
             </h1>
             <p className="mx-auto max-w-3xl text-lg text-muted-foreground md:text-xl">
               Lovely Professional University is a world-class institution dedicated to excellence in teaching, 
@@ -22,24 +23,24 @@ export default function About() {
 
           <div className="grid gap-16 lg:grid-cols-2">
             <div className="space-y-8">
-              <h2 className="text-3xl font-bold">Our Vision</h2>
+              <h2 className="text-3xl font-bold">{content.about.our_vision_header}</h2>
               <p className="text-muted-foreground leading-relaxed">
-                To be a premier academic institution, recognized internationally for its contribution to industry and society through excellence in teaching, learning, research, internationalization, entrepreneurship, and leadership.
+                {content.about.our_vision_description}
               </p>
               
-              <h2 className="text-3xl font-bold pt-8">Our Mission</h2>
+              <h2 className="text-3xl font-bold pt-8">{content.about.our_mission_header}</h2>
               <ul className="space-y-4 text-muted-foreground">
                 <li className="flex gap-4">
                   <div className="h-6 w-6 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 text-accent font-bold">✓</div>
-                  To provide affordable quality education while maintaining high standards.
+                  {content.about.our_mission_item1}
                 </li>
                 <li className="flex gap-4">
                   <div className="h-6 w-6 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 text-accent font-bold">✓</div>
-                  To nurture innovation and research-driven learning environment.
+                  {content.about.our_mission_item2}
                 </li>
                 <li className="flex gap-4">
                   <div className="h-6 w-6 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 text-accent font-bold">✓</div>
-                  To develop holistic individuals capable of leading in a globalized world.
+                  {content.about.our_mission_item3}
                 </li>
               </ul>
             </div>
